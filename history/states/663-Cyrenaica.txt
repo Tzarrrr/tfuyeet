@@ -1,0 +1,49 @@
+
+state={
+	id=663
+	name="STATE_663"
+	resources={
+		rubber=2.000
+		oil=8.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 5
+			air_base = 8
+
+		}
+		victory_points = {
+			10992 1 
+		}
+		victory_points = {
+			4112 1 
+		}
+		victory_points = {
+			1127 10 
+		}
+		victory_points = {
+			12318 1 
+		}
+		victory_points = {
+			806 10 
+		}
+		victory_points = {
+			4191 1 
+		}
+		victory_points = {
+			947 10 
+		}
+
+	}
+
+	provinces={
+		806 864 947 1127 1140 1198 4112 4133 4191 4200 6935 7026 7063 9932 11746 11759 11829 
+	}
+	manpower=8808
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

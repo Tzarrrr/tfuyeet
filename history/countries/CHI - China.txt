@@ -1,0 +1,55 @@
+﻿capital = 613 # Nanjing
+
+oob = "CHI_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CHI_1936_naval_mtg"
+	else = {
+		set_naval_oob = "CHI_1936_naval_legacy"
+	}
+}
+
+set_stability = 0.2
+set_war_support = 0.5
+set_research_slots = 0
+# Starting tech
+set_technology = { basic_train = 1
+	infantry_weapons = 1
+	gwtank_chassis = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+add_ideas = {
+ no_training 
+ free_trade
+}
+
+
+# save_global_event_target_as = WTT_current_china_leader
+
+set_convoys = 40
+
+# add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 23000 }
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+recruit_character = CHI_chiang_kaishek
+recruit_character = CHI_mao_zedong
+recruit_character = CHI_zhang_jiang
+recruit_character = CHI_kwong_shen
+
+
+

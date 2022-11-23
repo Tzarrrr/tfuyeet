@@ -1,0 +1,146 @@
+﻿capital = 7
+
+oob = "HOL_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "HOL_1936_naval_mtg"
+	else = {
+		set_naval_oob = "HOL_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 0
+set_stability = 0.75
+set_war_support = 0
+
+set_technology = { basic_train = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	fuel_silos = 1
+	marines = 1
+}
+
+add_ideas = {
+ 	no_training
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+}
+
+set_convoys = 150
+set_stability = 0.75				
+
+#create_country_leader = {
+#	name = "Dirk Jan de Geer"
+#	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
+#	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+#	expire = "1965.1.1"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
+
+create_country_leader = {
+	name = "Hendrikus Colijn"
+	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
+	picture = "GFX_portrait_holland_hendrikus_colijn"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Anton Mussert"
+	desc = "POLITICS_ANTON_MUSSERT_DESC"
+	picture = "GFX_portrait_hol_anton_mussert"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lou de Visser"
+	desc = "POLITICS_LOU_DE_VISSER_DESC"
+	picture = "GFX_portrait_HOL_lou_de_visser"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Willem Schermerhorn"
+	desc = "POLITICS_WIM_SCHERMERHORN_DESC"
+	picture = "GFX_portrait_hol_wim_schermerhorn"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+# recruit_character = HOL_izaak_reijnders
+# recruit_character = HOL_karel_doorman
+# recruit_character = HOL_conrad_helfrich
+# recruit_character = HOL_godfried_van_voorst_tot_voorst
+# recruit_character = HOL_hendrikus_colijn
+# recruit_character = HOL_johannes_walker
+# recruit_character = HOL_marcus_brown
+# recruit_character = HOL_jonas_williams
+# recruit_character = HOL_nelson_mello
+# recruit_character = HOL_françois_darlan
+# recruit_character = HOL_joão_baptista_de_mattos
+# recruit_character = HOL_markos_drakos
+# recruit_character = HOL_alexandros_papagos
+# recruit_character = HOL_charles_de_gaulle
+# recruit_character = HOL_king_haakon_vii
+# recruit_character = HOL_alphonse_juin
+# recruit_character = HOL_henri_winkelman
+# recruit_character = HOL_jean_de_lattre_de_tassigny
+# recruit_character = HOL_philippe_leclerc
+# recruit_character = HOL_petrus_wilhelmus_best
+# recruit_character = HOL_eurico_gaspar_dutra
+# recruit_character = HOL_mariepierre_koenig
+# recruit_character = HOL_antoinemariebenoît_besson
+# recruit_character = HOL_euclides_zenobio_da_costa
+# recruit_character = HOL_mascarenhas_de_morais
+# recruit_character = HOL_carl_gustav_fleischer
+# recruit_character = HOL_otto_ruge
+# recruit_character = HOL_charalambos_katsimitros
+# recruit_character = HOL_kristian_laake
+# recruit_character = HOL_henri_giraud
+# recruit_character = HOL_georges_catroux
+# recruit_character = HOL_charles_douw_van_der_krap
+# recruit_character = HOL_jan
+# recruit_character = HOL_nico_van_straten
+# recruit_character = HOL_hein_ter_poorten
+# recruit_character = HOL_gerrit
+# recruit_character = HOL_adrianus_rudolphus_van_den_bent
+# recruit_character = HOL_jan_goudriaan
+# recruit_character = HOL_hendrik
+# recruit_character = HOL_prince_bernhard
+# recruit_character = HOL_hendrik_van_oyen
+# recruit_character = HOL_jaap
+# recruit_character = HOL_jacob_adriaan_de_wilde
+# recruit_character = HOL_marco
+# recruit_character = HOL_maarten_belzer
+# recruit_character = HOL_willem_schermerhorn
+# recruit_character = HOL_adriaan_dijxhoorn
+# recruit_character = HOL_gerbrandy

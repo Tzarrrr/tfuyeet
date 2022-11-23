@@ -1,0 +1,65 @@
+﻿add_namespace = wtt_japan
+
+#Jakob ID 1-100
+#Drikus ID 101-200
+#Gabriel ID 201-300
+
+
+### ###  ### ###   ##  ###  ### ### ### ###     ###   ##   ##  ### 
+ #  #  #  #  #  # #  # #  #  #   #   #  #       #  # #  # #  #  #  
+ #  ###   #  ###  #### ###   #   #   #  ##      ###  #### #     #  
+ #  #  #  #  #    #  # #  #  #   #   #  #       #    #  # #  #  #  
+ #  #  # ### #    #  # #  #  #  ###  #  ###     #    #  #  ##   #  
+
+ # Event for Germany to accept Tripartite Pact
+country_event = {
+	id = wtt_japan.109
+	title = wtt_japan.109.t
+	desc = wtt_japan.109.desc
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+
+			GER = {
+				add_opinion_modifier = { target = ITA modifier = tripartite_pact_opinion }
+				add_opinion_modifier = { target = JAP modifier = tripartite_pact_opinion }
+			}
+			
+				ITA = {
+				add_opinion_modifier = { target = GER modifier = tripartite_pact_opinion }
+				add_opinion_modifier = { target = JAP modifier = tripartite_pact_opinion }
+			}
+			
+				JAP = {
+				add_opinion_modifier = { target = ITA modifier = tripartite_pact_opinion }
+				add_opinion_modifier = { target = GER modifier = tripartite_pact_opinion }
+			}
+GER = {
+				add_opinion_modifier = { target = MAN modifier = tripartite_pact_opinion }
+			}
+
+		}
+	}
+	
+	option = {
+		name = wtt_japan.109.a #accept
+		
+
+	}
+}
+
+
+
+
+###   ##  ###  ###  ### ###       ##   ##  #  # ### #   ###  ##  ###  ## 
+#  # #  # #  # #  # #   #  #     #  # #  # ## # #   #    #  #  #  #  #   
+###  #  # ###  #  # ##  ###      #    #  # # ## ##  #    #  #     #   #  
+#  # #  # #  # #  # #   #  #     #  # #  # #  # #   #    #  #  #  #    # 
+###   ##  #  # ###  ### #  #      ##   ##  #  # #   ### ###  ##   #  ##  
+
+add_namespace = japan_border_conflict
+
+#initial border incident against Soviet Union

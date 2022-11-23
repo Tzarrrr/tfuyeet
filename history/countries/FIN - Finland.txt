@@ -1,0 +1,247 @@
+﻿capital = 111
+
+oob = "FIN_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "FIN_1936_naval_mtg"
+	else = {
+		set_naval_oob = "FIN_1936_naval_legacy"
+	}
+}
+add_timed_idea = { idea = prewar_training days = 1300}
+add_intel = { target = JAP civilian_intel = 200 army_intel = 200 navy_intel = 200 airforce_intel = 200 }
+
+set_research_slots = 3
+set_rule = { can_be_spymaster = no }
+add_to_tech_sharing_group = axis_research 
+
+add_relation_modifier = {
+    target = ITA
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = ROM
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = SPR
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = GER
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = BUL
+    modifier = stahlpakt
+}
+if = { limit = { country_exists = CRO }
+	add_relation_modifier = {
+    	target = CRO
+    	modifier = stahlpakt
+	}
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = { basic_train = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+set_convoys = 5
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 1
+	neutrality = 79
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1939.7.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+create_country_leader = {
+	name = "Risto Heikki Ryti"
+	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aimo Aaltonen"
+	desc = "POLITICS_AIMO_AALTONEN_DESC"
+	picture = "gfx/leaders/FIN/Aimo_Aaltonen.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vilho Annala"
+	desc = "POLITICS_VILHO_ANNALA_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kyösti Kallio"
+	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
+	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+
+
+add_ideas = {
+	fin_sisu
+}
+
+# create_field_marshal = {
+# 	name = "Carl Gustaf Emil Mannerheim"
+# 	picture = "portrait_fin_carl_mannerheim.dds"
+# 	traits = { inflexible_strategist war_hero trait_cautious defensive_doctrine trickster winter_specialist }
+# 	skill = 5
+# 	id = 58
+# 	attack_skill = 3
+# 	defense_skill = 5
+# 	planning_skill = 5
+# 	logistics_skill = 3
+# }
+
+# create_corps_commander = {
+# 	name = "Erik Heinrichs"
+# 	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
+# 	traits = { winter_specialist ranger }
+# 	skill = 4
+#     attack_skill = 4
+#     defense_skill = 4
+#     planning_skill = 3
+#     logistics_skill = 2
+# }
+
+# create_corps_commander = {
+# 	name = "Harry Alfthan"
+# 	portrait_path = "gfx/leaders/FIN/Harry_Alfthan.tga"
+# 	traits = { winter_specialist commando }
+# 	skill = 3
+#     attack_skill = 3
+#     defense_skill = 1
+#     planning_skill = 4
+#     logistics_skill = 2
+# }
+
+# recruit_character = FIN_kyösti_kallio
+# recruit_character = FIN_ahto_törni
+# recruit_character = FIN_jarno_törni
+# recruit_character = FIN_eljas_olli
+# recruit_character = FIN_carl_gustaf_emil_mannerheim
+# recruit_character = FIN_aksel_airo
+# recruit_character = FIN_erik_heinrichs
+# recruit_character = FIN_vilho_petter_nenonen
+# recruit_character = FIN_karl_lennart_oesch
+# recruit_character = FIN_hjalmar_siilasvuo
+# recruit_character = FIN_paavo_talvela
+# recruit_character = FIN_aaro_pajari
+# recruit_character = FIN_gentlemen_fin
+# recruit_character = FIN_crusader_fin
+# recruit_character = FIN_antti_hackzell
+# recruit_character = FIN_fin_army_armored
+# recruit_character = FIN_stabber_fin
+# recruit_character = FIN_olavi_sarko
+# recruit_character = FIN_armaments_fin
+# recruit_character = FIN_akseli_anttila
+# recruit_character = FIN_orggg
+# recruit_character = FIN_fin_chief_entrenchment
+# recruit_character = FIN_moralle
+# recruit_character = FIN_fin_chief_planning
+# recruit_character = FIN_valio_porvari
+# recruit_character = FIN_carl_mannerheim
+# recruit_character = FIN_smooth_fin
+# recruit_character = FIN_fin_air_tacticalbombing
+# recruit_character = FIN_fin_army_concealment
+# recruit_character = FIN_offf
+# recruit_character = FIN_fin_chief_manuever
+# recruit_character = FIN_fin_army_logistics
+# recruit_character = FIN_harald_ohquist
+# recruit_character = FIN_eero_rahola
+# recruit_character = FIN_lauri_tiainen
+# recruit_character = FIN_ake_henrik_gartz
+
+recruit_character = FIN_risto_heikki_ryti
+recruit_character = FIN_aimo_aaltonen
+recruit_character = FIN_vilho_annala
+recruit_character = FIN_kyosti_kallio
+recruit_character = FIN_carl_mannerheim
+recruit_character = FIN_erik_heinrichs
+recruit_character = FIN_vilho_petter_nenonen
+recruit_character = FIN_olavi_arho
+recruit_character = FIN_valio_porvari
+recruit_character = FIN_jarl_lundqvist
+recruit_character = FIN_hugo_osterman
+recruit_character = FIN_lauri_malmberg
+recruit_character = FIN_olavi_sarko
+recruit_character = FIN_vaino_valve
+recruit_character = FIN_akseli_anttila
+recruit_character = FIN_harald_ohquist
+recruit_character = FIN_eero_rahola
+recruit_character = FIN_karl_oesch
+recruit_character = FIN_lauri_tiainen
+recruit_character = FIN_ralf_torngren
+recruit_character = FIN_antti_hackzell
+recruit_character = FIN_ake_henrik_gartz
+

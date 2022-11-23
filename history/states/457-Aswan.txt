@@ -1,0 +1,24 @@
+
+state={
+	id=457
+	name="STATE_457"
+	impassable = yes
+
+	history={
+		owner = ENG
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		650 5069 5184 7550 8101 10375 10390 12351 11917 5219 12889
+	}
+	manpower=2194
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,94 @@
+﻿capital = 37
+
+oob = "DEN_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "DEN_1936_naval_mtg"
+	else = {
+		set_naval_oob = "DEN_1936_naval_legacy"
+	}
+}
+
+
+add_ideas = { no_training }
+
+
+set_research_slots = 0
+set_stability = 0.9
+set_war_support = 0.1
+set_technology = { basic_train = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+}
+recruit_character = DEN_thorvald_stauning
+recruit_character = DEN_frits_clausen
+recruit_character = DEN_aksel_larsen
+recruit_character = DEN_peter_rochegune_munch
+recruit_character = DEN_wilhelm_wain_prior
+recruit_character = DEN_wilhelm_prior
+recruit_character = DEN_wilhelm_wane_prior
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+}
+
+set_convoys = 40
+
+# create_country_leader = {
+# 	name = "Thorvald Stauning"
+# 	desc = "POLITICS_THORVALD_STAUNING_DESC"
+# 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
+# 	expire = "1965.1.1"
+# 	ideology = socialism
+# 	traits = {
+# 		#
+# 	}
+# }
+
+# create_country_leader = {
+# 	name = "Frits Clausen"
+# 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
+# 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+# 	expire = "1965.1.1"
+# 	ideology = nazism
+# 	traits = {
+# 		#
+# 	}
+# }
+
+# create_country_leader = {
+# 	name = "Aksel Larsen"
+# 	desc = "POLITICS_AKSEL_LARSEN_DESC"
+# 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+# 	expire = "1965.1.1"
+# 	ideology = leninism
+# 	traits = {
+# 		#
+# 	}
+# }
+
+# create_country_leader = {
+# 	name = "Peter Rochegune Munch"
+# 	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
+# 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+# 	expire = "1965.1.1"
+# 	ideology = centrism
+# 	traits = {
+# 		#
+# 	}
+# }

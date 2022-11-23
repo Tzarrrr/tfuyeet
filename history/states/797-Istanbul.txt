@@ -1,0 +1,30 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = ENG
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 0
+			air_base = 1
+
+		}
+		victory_points = {
+			12836 150 
+		}
+		victory_points = {
+			12796 100 
+		}
+
+	}
+
+	provinces={
+		919 2062 2078 3890 4961 5037 6991 7925 8090 9830 10472 10893 11739 11897 12796 12826 12836 
+	}
+	manpower=540316
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

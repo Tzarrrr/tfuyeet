@@ -1,0 +1,924 @@
+focus_tree = {
+	id = norway_alt_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NOR
+		
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = nor_army_effort
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 3
+		y = 0
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 75 }
+	}
+	
+	
+	focus = {
+		id = nor_ski_inf
+		icon = GFX_goal_generic_special_forces
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = nor_army_effort }
+		relative_position_id = nor_army_effort
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		add_tech_bonus = {
+				name = special_bonus
+				bonus = 1.0
+				uses = 
+				technology = paratroopers
+				technology = paratroopers2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
+			
+		}
+	}
+	
+	
+	
+
+	focus = {
+		id = nor_equipment_effort
+		icon = GFX_focus_prc_infiltration
+		prerequisite = { focus = nor_army_effort }
+		x = -2
+		y = 1
+		relative_position_id = nor_army_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = nor_equipment_effort
+				bonus = 0.5
+				uses = 3
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = nor_motorization_effort
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = nor_army_effort }
+		x = 2
+		y = 1
+		relative_position_id = nor_army_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = nor_doctrine_effort
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = nor_equipment_effort }
+		x = 1
+		y = 1
+		relative_position_id = nor_equipment_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	focus = {
+		id = nor_equipment_effort_2
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = nor_equipment_effort }
+		x = -1
+		y = 1
+		relative_position_id = nor_equipment_effort
+		cost = 7
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+
+	focus = {
+		id = nor_mechanization_effort
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = nor_motorization_effort }
+		x = 1
+		y = 1
+		relative_position_id = nor_motorization_effort
+		cost = 7
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 2
+				category = cat_anti_tank
+			}
+		}
+	}
+
+
+	focus = {
+		id = nor_equipment_effort_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = nor_equipment_effort }
+		x = 0
+		y = 2
+		relative_position_id = nor_equipment_effort
+		cost = 10
+
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				uses = 3
+				bonus = 0.5
+				technology = advanced_infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = nor_armor_effort
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = nor_motorization_effort }
+		x = -1
+		y = 1
+		relative_position_id = nor_motorization_effort
+		cost = 7
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 2
+				technology = antiair3
+				technology = antiair2
+				technology = antiair1
+			}
+		}
+	}
+
+	focus = {
+		id = nor_tank_forces
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = nor_armor_effort 
+		                 focus = nor_mechanization_effort }
+		x = 0
+		y = 2
+		relative_position_id = nor_motorization_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				technology = basic_medium_tank_chassis
+			}
+			add_tech_bonus = {
+				name = USA_tank_experiments
+				uses = 1
+				bonus = 1.0
+				technology = improved_medium_tank_chassis
+				technology = improved_heavy_tank_chassis
+				technology = advanced_light_tank_chassis
+				technology = advanced_medium_tank_chassis
+				technology = advanced_heavy_tank_chassis
+			}
+		}
+	}
+
+
+
+
+
+
+
+	focus = {
+		id = nor_political_effort
+		icon = GFX_focus_generic_treaty
+		x = 14
+		y = 0
+		cost = 7
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 95
+		}
+	}
+
+	focus = {
+		id = nor_industrial_effort
+		icon = GFX_goal_generic_production2
+		x = -4
+		y = 0
+		cost = 10
+		relative_position_id = nor_political_effort
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 2  
+				technology = assembly_line_production
+				technology = flexible_line
+				technology = streamlined_line
+				
+			}
+		}
+	}
+	focus = {
+		id = NOR_norsk_hydro_focus
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		cost = 5.00  
+		x = 7
+		y = 0
+			available_if_capitulated = yes  
+			completion_reward = {
+					add_tech_bonus = {
+							name = secret_bonus
+							bonus = 1.5
+							uses = 1
+							category = nuclear
+							category = rocketry
+						}
+				}
+	}
+	focus = {
+		id = nor_military_effort
+		icon = GFX_goal_generic_construct_mil_factory
+	    prerequisite = { focus = nor_industrial_effort }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = nor_industrial_effort
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+           add_offsite_building = { type = arms_factory level = 4 }
+ 
+		}
+	}
+
+	focus = {
+		id = nor_civillian_effort
+		icon = GFX_NOR_hydro2
+	    prerequisite = { focus = NOR_norsk_hydro_focus focus = nor_industrial_effort }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = nor_industrial_effort
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+           add_offsite_building = { type = industrial_complex level = 2 }
+ 
+		}
+	}
+	focus = {
+		id = nor_secret_weapons
+		icon = GFX_goal_generic_television
+		prerequisite = { focus = nor_industrial_effort focus = NOR_norsk_hydro_focus }
+		x = -2
+		y = 1
+		relative_position_id = nor_industrial_effort
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1
+				uses = 4
+				category = electronics
+			}
+		}
+	}
+	focus = {
+		id = nor_neutrality_focus
+		icon = GFX_focus_NOR_democratic
+		prerequisite = { focus = nor_political_effort }
+		x = 4
+		y = 1
+		relative_position_id = nor_political_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+
+	focus = {
+		id = nor_technology_sharing
+		icon = GFX_NOR_school  
+		prerequisite = { focus = nor_civillian_effort }
+		prerequisite = { focus = nor_secret_weapons }
+		available = {	is_in_faction = yes	}
+		x = -1
+		y = 1
+		relative_position_id = nor_civillian_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_research_slot = 1			
+		}
+	}	
+		
+		focus = {
+		id = nor_winter_mountain_training
+		icon = GFX_focus_NOR_defense_union
+		prerequisite = {
+			focus = nor_political_effort
+		}
+		available = {
+		OR = {
+		NOR = { has_capitulated = yes }
+		date > 1940.8.1
+		}
+		}
+		x = 0
+		y = 1
+
+		cost = 10
+
+		relative_position_id = nor_political_effort
+		available_if_capitulated = yes
+
+		completion_reward = {
+		army_experience = 150
+		add_ideas = why_we_fight_focus
+		add_war_support = 0.2
+			add_ideas = NOR_training
+			remove_ideas = nor_bad_debuffs2
+			load_oob = "NOR_EMPTY"
+		}
+		}
+		
+		focus = {
+		id = nor_norway_in_exile
+		icon = GFX_focus_NOR_royal_guards
+		prerequisite = { focus = nor_winter_mountain_training }
+		available = {
+			NOR = { is_ai = no }
+		}		
+
+		relative_position_id = nor_winter_mountain_training
+		x = 0
+		y = 1
+
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		transfer_state = 337 
+		remove_ideas = nor_bad_debuffs
+		add_ideas = tot_economic_mobilisation
+		add_timed_idea = { idea = NOR_recover_eff days = 30 }
+			337 = {
+				add_extra_state_shared_building_slots = 30
+				add_building_construction = {
+					type = industrial_complex
+					level = 12
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 18
+					instant_build = yes
+				}		
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 48
+				}
+				add_resource = {
+					type = tungsten
+					amount = 54
+				}
+				
+			}
+		if = { limit = { NOT = { owns_state = 110 }} set_cosmetic_tag = FREE_NORWAY  }
+			add_manpower = 600000
+
+				add_equipment_to_stockpile = {
+							type = convoy_1
+							amount = 75
+							producer = NOR
+						}
+						
+				retire_country_leader = yes	
+				create_country_leader = {
+					name = "King Haakon VII"
+					desc = "POLITICS_KING_HAAKON_DESC"
+					picture = "portrait_norway_haakon_vii.tga"
+					expire = "1965.1.1"
+					ideology = conservatism
+					traits = {
+						
+					}
+					
+				}
+						
+		}
+		
+		}
+			focus = {
+		id = nor_fullindustrial_effort
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+	    prerequisite = { focus = nor_norway_in_exile }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = nor_norway_in_exile
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+           add_offsite_building = { type = arms_factory level = 2 }
+		}
+	}
+
+				focus = {
+		id = nor_doctrine_effort_2
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = nor_norway_in_exile }
+		available = {
+			POL = { has_capitulated = yes }
+		}
+		x = 1
+		y = 1
+		relative_position_id = nor_norway_in_exile
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+		
+			
+		focus = {
+		id = nor_ruges_plan
+		icon = GFX_focus_NOR_army
+		mutually_exclusive = { focus = nor_fleischers_plan }
+		prerequisite = { focus = nor_fullindustrial_effort }
+		available = {	NOR = { is_ai = no }	}	
+	
+		relative_position_id = nor_norway_in_exile
+		x = -1
+		y = 2
+
+		cost = 5
+
+			available_if_capitulated = yes
+			completion_reward = {
+				add_ideas = NOR_army_buffs
+			}
+		}
+		
+		
+		
+		
+		focus = {
+		id = nor_fleischers_plan
+		icon = GFX_focus_NOR_expand_the_forsvaret
+		mutually_exclusive = { focus = nor_ruges_plan }
+		prerequisite = { focus = nor_doctrine_effort_2 }
+		available = {
+		NOR = { is_ai = no }
+		}		
+
+		relative_position_id = nor_doctrine_effort_2
+		
+		x = 0
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+							add_ideas = NOR_spec_ops
+		}
+		
+		}
+		
+		focus = {
+		id = nor_train_with_sas
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = nor_fleischers_plan }
+		available = {
+		NOR = { is_ai = no }
+		}		
+	
+		relative_position_id = nor_fleischers_plan
+		x = 0
+		y = 1
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+					add_tech_bonus = {
+					       bonus = 1
+					       uses = 5
+					       category = mountaineers_tech
+	          		       category = marine_tech
+						   category = jaegar_tech
+			               category = para_tech
+					}
+					ENG = {
+					add_tech_bonus = {
+							bonus = 3.0
+							uses = 1
+				         	category = mountaineers_tech
+					}
+		}
+		}
+		}
+		focus = {
+		id = nor_special_forces
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = nor_train_with_sas }
+		x = 1	
+		y = 1
+		relative_position_id = nor_train_with_sas
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1
+				uses = 2
+			category = mountaineers_tech
+			category = jaegar_tech
+			category = marine_tech
+			category = para_tech
+			}
+		}
+	}
+		focus = {
+		id = nor_drill_exile_army
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = nor_ruges_plan }
+		available = {
+		NOR = { is_ai = no }
+		}	
+		
+		relative_position_id = nor_ruges_plan
+		x = 0
+		y = 1
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+				army_experience = 150
+													add_ideas = NOR_army_buffs2
+		}
+		
+		}
+		
+		
+		focus = {
+		id = nor_prepare_operation_crofter
+		icon = GFX_goal_generic_position_armies
+		prerequisite = {
+			focus = nor_king_speech
+		}
+			available = { 		custom_trigger_tooltip = { NOT = { controls_state = 110 }tooltip = "We are a government-in-exile"} }
+
+		x = 18
+		y = 4
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_tech_bonus = {
+							bonus = 3.0
+							uses = 2
+					category = tp_tech
+					}
+		
+		}
+	}
+			
+		focus = {
+		id = nor_operation_crofter
+		icon = GFX_NOR_norge
+		prerequisite = { focus= nor_prepare_operation_crofter }
+		mutually_exclusive = {
+			focus = nor_narvik
+		}
+		available = {
+		NOR = { is_ai = no }
+		}		
+		relative_position_id = nor_prepare_operation_crofter
+		x = 1
+		y = 1
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = { idea = NOR_crofter days = 90 }
+		}
+		
+		}
+		focus = {
+			id = nor_king_speech
+			icon = GFX_focus_generic_monarchy_2
+			prerequisite = {
+				focus = nor_neutrality_focus
+			}
+			available = {
+			}	
+			
+			relative_position_id = nor_neutrality_focus
+			x = 0
+			y = 1
+	
+			cost = 5
+	
+			available_if_capitulated = yes
+	
+			completion_reward = {
+				add_war_support = 0.1
+				add_manpower = 100000
+		}
+		}
+		focus = {
+			id = nor_lower_recruitment_standars
+			icon = GFX_NOR_oldguard
+			prerequisite = { focus = nor_drill_exile_army }
+			available = {
+			date > 1942.1.1
+			}	
+			
+			relative_position_id = nor_drill_exile_army
+			x = -1
+			y = 1
+	
+			cost = 5
+	
+			available_if_capitulated = yes
+	
+			completion_reward = {
+				add_manpower = 500000
+				add_ideas = NOR_bad_training
+		}
+		}
+		focus = {
+			id = nor_coastal_forts
+			icon = GFX_goal_generic_defense
+			prerequisite = { focus= nor_operation_crofter focus= nor_narvik }
+			available = {
+			owns_state = 110
+			}	
+			
+			relative_position_id = nor_prepare_operation_crofter
+			x = 0
+			y = 2
+	
+			cost = 10
+	
+			available_if_capitulated = yes
+	
+			completion_reward = {
+				110 = {
+								set_building_level = {
+						type = supply_node
+						level = 1
+						province = 9103
+						instant_build = yes
+					}
+					set_building_level = {
+						type = supply_node
+						level = 1
+						province = 11078
+						instant_build = yes
+					}
+					set_building_level = {
+						type = coastal_bunker
+						level = 5
+						province = 6115
+						instant_build = yes
+					}
+					set_building_level = {
+						type = coastal_bunker
+						level = 3
+						province = 3171
+						instant_build = yes
+					}
+					set_building_level = {
+						type = coastal_bunker
+						level = 3
+						province = 14
+						instant_build = yes
+					}
+					set_building_level = {
+						type = naval_base
+						level = 5
+						province = 6115
+						instant_build = yes
+					}
+				}
+				}
+		}
+		focus = {
+			id = nor_combine_training
+			icon = GFX_focus_chi_british_cooperation
+			prerequisite = { focus= nor_drill_exile_army focus= nor_train_with_sas }
+			
+			relative_position_id = nor_drill_exile_army
+			x = 1
+			y = 1
+	
+			cost = 5
+	
+			available_if_capitulated = yes
+	
+			completion_reward = {
+				army_experience = 50
+				ENG = { army_experience = 50 }
+		}
+		}
+		focus = {
+			id = nor_iceland
+			icon = GFX_goal_NOR_iceland
+			prerequisite = { focus= nor_king_speech }
+			
+			relative_position_id = nor_king_speech
+			x = -1
+			y = 1
+	
+			cost = 5
+				available = { 		custom_trigger_tooltip = { NOT = { controls_state = 110 }tooltip = "We are a government-in-exile"} }
+
+			available_if_capitulated = yes
+	
+			completion_reward = {
+				transfer_state = 100
+				100 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+		}
+		}
+	}
+		focus = {
+			id = nor_greenland
+			icon = GFX_goal_NOR_greenland
+			prerequisite = { focus= nor_king_speech }
+			relative_position_id = nor_king_speech
+			x = 1
+			y = 1
+	
+			cost = 5
+	
+			available_if_capitulated = yes
+			available = { 		custom_trigger_tooltip = { NOT = { controls_state = 110 }tooltip = "We are a government-in-exile"} }
+			completion_reward = {
+				transfer_state = 101
+				101 = {
+						add_extra_state_shared_building_slots = 2 
+					add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+					add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
+		}
+		focus = {
+			id = nor_narvik
+			icon = GFX_focus_POL_develop_polish_shipbuilding
+			prerequisite = { focus= nor_prepare_operation_crofter }
+			mutually_exclusive = {
+				focus = nor_operation_crofter
+			}
+			available = {
+			NOT = { controls_state = 110 }
+			controls_state = 144
+			}	
+			
+			relative_position_id = nor_prepare_operation_crofter
+			x = -1
+			y = 1
+	
+			cost = 10
+	
+			available_if_capitulated = yes
+	
+			completion_reward = {
+				set_capital = { state = 144 }
+				144 = { 
+				set_building_level = {
+						type = coastal_bunker
+						level = 5
+						province = 192
+						instant_build = yes
+					}
+					set_building_level = {
+						type = bunker
+						level = 5
+						province = 192
+						instant_build = yes
+					}
+					set_building_level = {
+						type = supply_node
+						level = 1
+						province = 9208
+						instant_build = yes
+					}
+					set_building_level = {
+						type = supply_node
+						level = 1
+						province = 9126
+						instant_build = yes
+					}
+					}
+				}
+		}
+		}
+}
