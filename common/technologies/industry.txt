@@ -6,14 +6,14 @@ technologies = {
         start_year = 1936
         categories = {
         }
-
+        #boda
         on_research_complete = {
             hidden_effect = {
                 set_technology = {
                     tech_juggle = 0
                 }
             }
-            custom_effect_tooltip = "Can be researched infinitely"
+            custom_effect_tooltip = "Can be researched infinitely."
         }
 
         folder = {
