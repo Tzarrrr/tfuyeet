@@ -13,7 +13,6 @@ technologies = {
                     tech_juggle = 0
                 }
             }
-            custom_effect_tooltip = "Can be researched infinitely."
         }
 
         folder = {

@@ -4130,5 +4130,10 @@ spriteTypes = {
 		texturefile = "gfx/texticons/kx_proletkult_texticon.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_steamhappy_texticon"
+		texturefile = "gfx/texticons/steamhappy.dds"
+		legacy_lazy_load = no
+	}
 	
 }

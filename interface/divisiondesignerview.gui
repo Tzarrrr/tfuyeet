@@ -1130,7 +1130,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 2 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
@@ -1171,7 +1171,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			scale = 0.8
