@@ -3552,5 +3552,25 @@ SpriteType = {
 		name = "GFX_focus_GER_army_inno_1"
 		texturefile = "gfx/interface/goals/focus_GER_army_inno_1.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_french_elections1"
+		texturefile = "gfx/interface/goals/focus_FRA_elections_epic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_FRA_end_colonial_policy_2"
+		texturefile = "gfx/interface/goals/focus_FRA_end_colonial_policy_2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_FRA_form_the_state_arsenals"
+		texturefile = "gfx/interface/goals/focus_FRA_form_the_state_arsenals.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_FRA_support_labor_unions"
+		texturefile = "gfx/interface/goals/focus_FRA_support_labor_unions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_FRA_end_colonial_policy"
+		texturefile = "gfx/interface/goals/focus_FRA_end_colonial_policy.dds"
+	}
 
 }

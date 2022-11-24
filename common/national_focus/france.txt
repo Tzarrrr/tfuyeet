@@ -18,31 +18,6 @@
 	default = no
 
 	focus = {
-		id = FRA_refinery_effort
-		icon = GFX_focus_generic_rubber
-		x = 17
-		y = 5
-		cost = 10
-		available = {
-			ROOT = { has_war_with = JAP }
-		}
-		ai_will_do = {
-			factor = 9
-		}
-		
-		completion_reward = {
-			add_ideas = refinery_effort
-			add_tech_bonus = {
-				name = SOV_coal_liquidization
-				bonus = 0.5
-				uses = 3
-				category = synth_resources
-			}
-		}
-	}
-
-
-	focus = {
 		id = FRA_devalue_the_franc
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 2
@@ -679,7 +654,7 @@ if = {
 
 	focus = {
 		id = FRA_begin_rearmament
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_focus_war_production
 		x = 8
 		y = 0
 		offset = {
@@ -1187,7 +1162,7 @@ if = {
 	
 	focus = {
 		id = FRA_economic_devolution
-		icon = GFX_goal_generic_positive_trade_relations
+		icon = GFX_focus_FRA_support_labor_unions
 		x = 1
 		y = 1
 	
@@ -1234,7 +1209,7 @@ if = {
 	
 	focus = {
 		id = FRA_stimulate_the_dynamic_market
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_FRA_form_the_state_arsenals
 		x = 0
 		y = 1
 		offset = {
@@ -1260,7 +1235,7 @@ if = {
 
 	focus = {
 		id = FRA_the_blum_viollette_proposal
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_FRA_end_colonial_policy
 		x = 2
 		y = 1
 
@@ -1287,7 +1262,7 @@ if = {
 	}
 	focus = {
 		id = FRA_expand_the_citizenship
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_focus_FRA_end_colonial_policy_2
 		x = 0
 		y = 1
 
