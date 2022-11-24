@@ -391,6 +391,7 @@ on_actions = {
 						add_state_core = 660 add_state_core = 774 }
 				FRA = { country_event = { id = france.10 }}
 				GER = {  country_event = { id = france.14 }
+				ITA = {transfer_state = 809 }
 				762 = { set_compliance = 60 }
 				if = {
 					limit = {
