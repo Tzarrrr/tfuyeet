@@ -17,8 +17,8 @@ focus_tree = {
 
 	focus = {
 		id = FRF_france_libre
-		icon = GFX_france_nine
-		x = 6
+		icon = GFX_goal_support_democracy
+		x = 8
 		y = 0
 		cost = 0.1
 
@@ -103,8 +103,8 @@ focus_tree = {
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = FRF_france_libre }
         # prerequisite = { focus = FRF_intervention_in_west_africa }
-		x = 4
-		y = 1.5
+		x = 2
+		y = 1
 		cost = 5
 
 		available_if_capitulated = yes
@@ -151,7 +151,7 @@ focus_tree = {
 		id = FRF_revive_civilian_construction
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = FRF_gold_reserve }
-		x = 6
+		x = 4
 		y = 2
 		cost = 5
 
@@ -173,7 +173,8 @@ focus_tree = {
 		id = FRF_rebuild_military_production
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = FRF_gold_reserve }
-		x = 2
+		
+		x = 0
 		y = 2
 		cost = 5
 
@@ -199,7 +200,7 @@ focus_tree = {
 			focus = FRF_revive_civilian_construction
 			# focus = FRF_revive_naval_construction
 		}
-		x = 4
+		x = 2
 		y = 3
 		cost = 5
 
@@ -230,7 +231,7 @@ focus_tree = {
 			focus = FRF_france_libre
 		}
 		relative_position_id = FRF_france_libre
-		x = 0
+		x = -2
 		y = 1
 		cost = 5
 
@@ -273,7 +274,7 @@ focus_tree = {
 	focus = {
 		id = FRF_intervention_in_west_africa
 		icon = GFX_goal_generic_position_armies
-		x = 2
+		x = 8
 		y = 1
 
 		prerequisite = { 
@@ -388,9 +389,9 @@ focus_tree = {
 
 	focus = {
 		id = FRF_reform_our_doctrine
-		icon = GFX_france_six
+		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = FRF_france_libre }
-		x = 15
+		x = 8
 		y = 1
 		cost = 5
 
@@ -410,10 +411,11 @@ focus_tree = {
 
 	focus = {
 		id = FRF_reequip_our_forces
-		icon = GFX_france_seven
+		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = FRF_reform_our_doctrine }
-		x = 11
-		y = 2
+		relative_position_id = FRF_reform_our_doctrine
+		x = 0
+		y = 1
 		cost = 5
  
 		available_if_capitulated = yes
@@ -430,10 +432,11 @@ focus_tree = {
 	
 	focus = {
 		id = FRF_colonial_recruitment
-		icon = GFX_france_eight
+		icon = GFX_focus_FRA_end_colonial_policy_2
 		prerequisite = { focus = FRF_reequip_our_forces }
-		x = 11
-		y = 3
+		relative_position_id = FRF_reform_our_doctrine
+		x = 0
+		y = 2
 		cost = 5
 
 		available_if_capitulated = yes
@@ -448,8 +451,9 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		mutually_exclusive = { focus = FRF_modernize_our_armor_force }
 		prerequisite = { focus = FRF_colonial_recruitment }
-		x = 10
-		y = 4
+		relative_position_id = FRF_reform_our_doctrine
+		x = -1
+		y = 3
 		cost = 5
 
 		available_if_capitulated = yes
@@ -479,11 +483,13 @@ focus_tree = {
 	
 	focus = {
 		id = FRF_modernize_our_armor_force
-		icon = GFX_goal_generic_armys
+		name = "Tank Modernisation"
+		icon = GFX_focus_war_production
 		mutually_exclusive = { focus = FRF_modernize_our_equipment }
 		prerequisite = { focus = FRF_colonial_recruitment }
-		x = 12
-		y = 4
+		relative_position_id = FRF_reform_our_doctrine
+		x = 1
+		y = 3
 		cost = 5
 
 		available_if_capitulated = yes
@@ -528,8 +534,9 @@ focus_tree = {
 		   focus = FRF_modernize_our_equipment 
 		   focus = FRF_modernize_our_armor_force
 		}
-		x = 11
-		y = 5
+		relative_position_id = FRF_reform_our_doctrine
+		x = 0
+		y = 4
 
 		cost = 5
 
@@ -549,7 +556,7 @@ focus_tree = {
 		id = FRF_air_two_doctrine
 		icon = GFX_goal_generic_air_doctrine
 	 	prerequisite = { focus = FRF_france_libre }
-		x = 18
+		x = 13
 		y = 1
 		cost = 5
 
@@ -571,11 +578,10 @@ focus_tree = {
 		id = FRF_fighter_two_focus
 		icon = GFX_goal_generic_air_fighter
 	 	prerequisite = { focus = FRF_air_two_doctrine }
+		relative_position_id = FRF_air_two_doctrine
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = FRF_air_two_doctrine
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -588,8 +594,9 @@ focus_tree = {
 		icon = GFX_goal_generic_CAS
 		mutually_exclusive = { focus = FRF_naval_bomber_two_focus }
 	 	prerequisite = { focus = FRF_fighter_two_focus }
-		x = 14
-		y = 3
+		 relative_position_id = FRF_air_two_doctrine
+		 x = -1
+		 y = 2
 		cost = 5
 
 		available_if_capitulated = yes
@@ -609,8 +616,9 @@ focus_tree = {
 		icon = GFX_goal_generic_air_naval_bomber
 		mutually_exclusive = { focus = FRF_cas_two_focus }
 	 	prerequisite = { focus = FRF_fighter_two_focus }
-		x = 16
-		y = 3
+		 relative_position_id = FRF_air_two_doctrine
+		 x = 1
+		 y = 2
 		cost = 5
 
 		available_if_capitulated = yes
@@ -633,8 +641,9 @@ focus_tree = {
 	 		focus = FRF_cas_two_focus
 	 		focus = FRF_naval_bomber_two_focus
 	 	}
-		x = 16
-		y = 4
+		 relative_position_id = FRF_air_two_doctrine
+		 x = 1
+		 y = 3
 		cost = 5
 
 		available_if_capitulated = yes
@@ -657,8 +666,9 @@ focus_tree = {
 	 		focus = FRF_cas_two_focus
 	 		focus = FRF_naval_bomber_two_focus
 	 	}
-		x = 14
-		y = 4
+		 relative_position_id = FRF_air_two_doctrine
+		 x = -1
+		 y = 3
 		cost = 5
 
 		available_if_capitulated = yes
@@ -680,8 +690,9 @@ focus_tree = {
 		   focus = FRF_bomber_two_focus
 		   focus = FRF_heavy_bomber_two_focus
 		}
-		x = 15
-		y = 5
+		relative_position_id = FRF_air_two_doctrine
+		x = 0
+		y = 4
 
 		cost = 2
 
@@ -703,7 +714,7 @@ focus_tree = {
 		prerequisite = { 
 		   focus = FRF_reform_our_doctrine
 		}
-		x = 13
+		x = 8
 		y = 2
 		cost = 5
 

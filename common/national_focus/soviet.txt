@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_great_purge
-		icon = GFX_focus_SOV_great_purge
+		icon = GFX_focus_SOV_military_purge
 		available = {
 			#date > 1937.6.1 
 		}
