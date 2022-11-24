@@ -319,4 +319,5 @@ SOV_relocate_industry_from_moscow:0 "Relocate Industry from Moscow"
  emergency_factory_conversion_offensive:0 "Emergency Factory Conversion Offensive"
  emergency_factory_conversion_civilian:0 "Emergency Factory Conversion Civilian"
  
- 
+ CAN_annex_SAF:0 "Annex South Africa"
+ SAF_annex_CAN:0 "Annex Canada"

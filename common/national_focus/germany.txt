@@ -1061,6 +1061,26 @@ focus_tree = {
 			factor = 10
 		}	
 		completion_reward = {
+			every_country = {
+				limit = {
+					NOT = {
+						TAG = SWE
+						TAG = CHI
+						TAG = IRA
+					}
+				}
+				add_tech_bonus = {
+					name = GER_soviet_treaty
+					bonus = 0.75
+					uses = 3
+					technology = medium_guns
+					technology = medium_guns2
+					technology = medium_guns3
+					technology = heavy_guns3
+					technology = heavy_guns2
+					technology = heavy_guns
+					}
+			}
 			SOV = { country_event = { id = germany.75 days = 1 } }
 			add_research_slot = 1
 			# SOV = { add_timed_idea = { idea = SOV_soviet_german_trade_agreement days = 365 } }
@@ -4068,4 +4088,5 @@ focus_tree = {
 						}
 					}
 				}
+			}
 	

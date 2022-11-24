@@ -68,6 +68,8 @@ equipments = {
 				}
 			}
 
+
+
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
@@ -85,6 +87,13 @@ equipments = {
 					tank_secondary_turret
 				}
 			}
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+				tank_special_ammo
+				}
+			}
+
 			
 		}
 		module_count_limit = {
@@ -382,6 +391,13 @@ equipments = {
 					tank_secondary_turret
 				}
 			}
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+				tank_special_ammo
+				}
+			}
+
 		}			
 	}	
 
@@ -453,6 +469,8 @@ equipments = {
 				}
 			}
 
+
+
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
@@ -468,6 +486,12 @@ equipments = {
 					tank_special_module
 					tank_secondary_turret
 					tank_radio_module
+				}
+			}
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+				tank_special_ammo
 				}
 			}
 		}
@@ -878,6 +902,12 @@ equipments = {
 					tank_special_module
 					tank_secondary_turret
 					tank_radio_module
+				}
+			}
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+				tank_special_ammo
 				}
 			}
 

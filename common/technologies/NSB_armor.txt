@@ -372,6 +372,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			flamethrower
+			easy_maintenance
 		}
 
 		enable_subunits = {
@@ -390,9 +391,6 @@ technologies = {
 		path = {
 			leads_to_tech = modern_light_tank_chassis
 			research_cost_coeff = 1
-		}	
-		enable_equipment_modules = {
-			easy_maintenance
 		}
 		
 
@@ -620,6 +618,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			flamethrower
+			easy_maintenance
 		}
 		enable_subunits = {
 			light_flame_tank
@@ -647,9 +646,6 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 6 }
-		}
-		enable_equipment_modules = {
-			easy_maintenance
 		}
 		ai_will_do = {
 			factor = 3
@@ -1010,6 +1006,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			flamethrower
+			easy_maintenance
 		}
 		enable_subunits = {
 			light_flame_tank
@@ -1041,9 +1038,6 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 5 y = 6 }
-		}
-		enable_equipment_modules = {
-			easy_maintenance
 		}
 		ai_will_do = {
 			factor = 0.8
@@ -1171,7 +1165,43 @@ technologies = {
 	}
 
 	super_heavy_tank_chassis = { #Maus
-
+	allow = {
+		#date > 1941.1.1
+		OR = {
+			has_game_rule = {
+				rule = horst_tank_research_options
+				option = HORST_ENABLE_FREE_RESEARCH
+			}
+			AND = { 
+			has_game_rule = {
+				rule = horst_tank_research_options
+				option = HORST_DISABLE_LIMIT_1940
+			}
+			date > 1940.1.1
+			}
+			AND = { 
+			has_game_rule = {
+				rule = horst_tank_research_options
+				option = HORST_DISABLE_LIMIT_1941
+			}
+			date > 1941.1.1
+			}
+			AND = { 
+			has_game_rule = {
+				rule = horst_tank_research_options
+				option = SR_tank_limit_barbarossa
+			}
+			date > 1941.6.1
+			}
+				AND = { 
+			has_game_rule = {
+				rule = horst_tank_research_options
+				option = HORST_DISABLE_LIMIT_1942
+			}
+			date > 1942.1.1
+			}
+		}
+	}
 		enable_equipments = {
 			super_heavy_tank_chassis_1
 			super_heavy_tank_destroyer_chassis_1
@@ -1554,14 +1584,50 @@ technologies = {
 	
 	medium_guns3 = {	
 
-
+		allow = {
+			#date > 1941.1.1
+			OR = {
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_ENABLE_FREE_RESEARCH
+				}
+				AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_DISABLE_LIMIT_1940
+				}
+				date > 1940.1.1
+				}
+				AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_DISABLE_LIMIT_1941
+				}
+				date > 1941.1.1
+				}
+				AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = SR_tank_limit_barbarossa
+				}
+				date > 1941.6.1
+				}
+					AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_DISABLE_LIMIT_1942
+				}
+				date > 1942.1.1
+				}
+			}
+		}
 		enable_equipment_modules = {
 			tank_heavy_howitzer
 			tank_medium_cannon_3
 			tank_anti_air_cannon_3		
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
@@ -1583,7 +1649,7 @@ technologies = {
             hvap_ammo
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1694,14 +1760,50 @@ technologies = {
 	
 	heavy_guns3 = {	
 
-
+		allow = {
+			#date > 1941.1.1
+			OR = {
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_ENABLE_FREE_RESEARCH
+				}
+				AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_DISABLE_LIMIT_1940
+				}
+				date > 1940.1.1
+				}
+				AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_DISABLE_LIMIT_1941
+				}
+				date > 1941.1.1
+				}
+				AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = SR_tank_limit_barbarossa
+				}
+				date > 1941.6.1
+				}
+					AND = { 
+				has_game_rule = {
+					rule = horst_tank_research_options
+					option = HORST_DISABLE_LIMIT_1942
+				}
+				date > 1942.1.1
+				}
+			}
+		}
 		enable_equipment_modules = {
 			tank_heavy_cannon_3
 			tank_high_velocity_cannon_3		
 			tank_anti_air_cannon_3
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
@@ -1800,7 +1902,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 0.5
+		research_cost = 0.25
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -1829,7 +1931,7 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 0.5
+		research_cost = 0.25
 		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
@@ -1845,14 +1947,13 @@ technologies = {
 			electronics
 		}
 	}	
-	
 	radio_tech_3 = {
 	
 		enable_equipment_modules = {
 			tank_radio_3			
 		}
 
-		research_cost = 0.5
+		research_cost = 0.25
 		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
