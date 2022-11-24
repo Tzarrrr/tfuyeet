@@ -3504,5 +3504,53 @@ SpriteType = {
 		name = "GFX_focus_SOV_approach_semyonov"
 		texturefile = "gfx/interface/goals/focus_SOV_approach_semyonov.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_total_war"
+		texturefile = "gfx/interface/goals/GFX_total_war.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_peopletroll"
+		texturefile = "gfx/interface/goals/peopletroll.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SS_recruitment"
+		texturefile = "gfx/interface/goals/SS_recruitment.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_barb"
+		texturefile = "gfx/interface/goals/barb.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_norway_dec"
+		texturefile = "gfx/interface/goals/norway_dec.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_sweden_resources"
+		texturefile = "gfx/interface/goals/sweden_resources.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_war_production"
+		texturefile = "gfx/interface/goals/war_production.tga"
+	}
+	SpriteType = { 
+		name = "GFX_goal_generic_mils"
+		texturefile = "gfx/interface/goals/goal_generic_mils.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_generic_arms_artillery_grenades"
+		texturefile = "gfx/interface/goals/goal_generic_arms_artillery_grenades.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_barbforts"
+		texturefile = "gfx/interface/goals/barbforts.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_anschluss2"
+		texturefile = "gfx/interface/goals/focus_GER_anschluss2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_army_inno_1"
+		texturefile = "gfx/interface/goals/focus_GER_army_inno_1.dds"
+	}
 
 }

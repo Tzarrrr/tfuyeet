@@ -144,7 +144,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_kdf_wagen
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_generic_mils
 		dynamic = yes
 		prerequisite = { focus = GER_hermann_goring_werke }
 		x = 0
@@ -694,7 +694,7 @@ focus_tree = {
 
 		focus = {
 			id = GER_german_war_economy
-			icon = GFX_goal_generic_construct_mil_factory
+			icon = GFX_focus_war_production
 			prerequisite = { focus = GER_autobahn }
 			x = 0
 			y = 1
@@ -1073,6 +1073,7 @@ focus_tree = {
 					name = GER_soviet_treaty
 					bonus = 0.75
 					uses = 3
+					technology = shit_guns
 					technology = medium_guns
 					technology = medium_guns2
 					technology = medium_guns3
@@ -1386,7 +1387,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_anschluss
-		icon = GFX_goal_anschluss
+		icon = GFX_focus_GER_anschluss2
 		prerequisite = { focus = GER_rhineland }
 
 		available = { date > 1937.6.1 }
@@ -1796,7 +1797,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_weserubung
-		icon = GFX_goal_generic_more_territorial_claims
+		icon = GFX_focus_norway_dec
 		prerequisite = { focus = GER_danzig_or_war }
 		will_lead_to_war_with = DEN 
 		will_lead_to_war_with = NOR
@@ -1842,7 +1843,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_pressure_sweden
-		icon = GFX_goal_generic_more_territorial_claims
+		icon = GFX_focus_sweden_resources
 		prerequisite = { focus = GER_weserubung }
 		relative_position_id = GER_weserubung
 		x = 1
@@ -3047,7 +3048,7 @@ focus_tree = {
 
 				focus = {
 					id = GER_reintegrate_luxemburg_and_alsace_lorraine
-					icon = GFX_goal_generic_position_armies
+					icon = GFX_focus_peopletroll
 					prerequisite = { focus = GER_fall_gelb }
 					available = {
 						has_full_control_of_state = 8
@@ -3101,7 +3102,7 @@ focus_tree = {
 					select_effect = {
 						country_event = { id = srevents.11 days = 1 }
 						SOV = { country_event = { id = srevents.11 days = 1 } }
-					}
+					}s
 					completion_reward = {
 						add_war_support = 0.05
 						SOV = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
@@ -3112,7 +3113,7 @@ focus_tree = {
 
 					focus = { 
 						id = GER_total_war
-						icon = GFX_goal_generic_attack_allies
+						icon = GFX_focus_total_war
 						prerequisite = { focus = GER_anti_comitern_pact }
 						relative_position_id = GER_anti_comitern_pact
 						x = -2
@@ -3218,7 +3219,7 @@ focus_tree = {
 				
 			focus = {
 				id = GER_ussr_war_goal
-				icon = GFX_focus_attack_soviet
+				icon = GFX_focus_barb
 				prerequisite = { focus = GER_anti_comitern_pact }
 				will_lead_to_war_with = SOV
 		
@@ -3305,7 +3306,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_Recruit_The_SS
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_focus_SS_recruitment
 		prerequisite = { focus = GER_fall_gelb }
 		x = 15
 		y = 7
@@ -3324,7 +3325,7 @@ focus_tree = {
 
 			focus = {
 				id = GER_armament_miracle
-				icon = GFX_goal_generic_construct_mil_factory
+				icon = GFX_goal_generic_arms_artillery_grenades
 				prerequisite = { focus = GER_ussr_war_goal }
 				x = -1
 				y = 1
@@ -3385,7 +3386,7 @@ focus_tree = {
 
 			focus = {
 				id = GER_battle_russia
-				icon = GFX_goal_generic_attack_allies
+				icon = GFX_focus_GER_army_inno_1
 				relative_position_id = GER_ussr_war_goal
 				prerequisite = { focus = GER_ussr_war_goal }
 				x = -5
@@ -3577,7 +3578,7 @@ focus_tree = {
 
 				focus = {
 					id = GER_ostwall
-					icon = GFX_goal_generic_fortify_city
+					icon = GFX_goal_barbforts
 					prerequisite = { focus = GER_ussr_war_goal }
 					available = {
 						any_country = {
