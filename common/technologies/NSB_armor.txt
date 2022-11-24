@@ -1647,6 +1647,7 @@ technologies = {
 		enable_equipment_modules = {
 			apcr_ammo	
             hvap_ammo
+			squeezebore_adaptor
 		}
 
 		research_cost = 0.5
@@ -1668,8 +1669,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_rocket_launcher
-			hesh_ammo
-			squeezebore_adaptor	
+			hesh_ammo	
 			dozer_blade
 			
 		}
