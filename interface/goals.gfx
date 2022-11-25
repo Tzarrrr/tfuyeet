@@ -3572,5 +3572,25 @@ SpriteType = {
 		name = "GFX_focus_FRA_end_colonial_policy"
 		texturefile = "gfx/interface/goals/focus_FRA_end_colonial_policy.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_last_offensive"
+		texturefile = "gfx/interface/goals/last_offensive.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_citadel"
+		texturefile = "gfx/interface/goals/citadel.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_blau"
+		texturefile = "gfx/interface/goals/blau.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_benelux_inv"
+		texturefile = "gfx/interface/goals/benelux_inv.tga"
+	}
+#	SpriteType = { 
+#		name = "GFX_focus_"
+#		texturefile = "gfx/interface/goals/.tga"
+#	}
 
 }

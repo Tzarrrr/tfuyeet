@@ -2974,7 +2974,7 @@ focus_tree = {
 				id = GER_fall_gelb
 		
 				prerequisite = { focus = GER_danzig_or_war }
-				icon = GFX_focus_ger_reichskommisariats
+				icon = GFX_focus_benelux_inv
 				available = {
 					Date < 1940.6.1
 					NOT={ EFR = { owns_state = 26 } }
@@ -3959,7 +3959,7 @@ focus_tree = {
 					id = GER_fall_blau
 			
 					prerequisite = { focus = GER_ussr_war_goal }
-					icon = GFX_focus_ger_reichskommisariats
+					icon = GFX_focus_blau
 					available = {
 						Date > 1942.5.1
 						Date < 1942.10.1
@@ -4015,7 +4015,7 @@ focus_tree = {
 					id = GER_operation_citadel
 			
 					prerequisite = { focus = GER_fall_blau }
-					icon = GFX_focus_ger_reichskommisariats
+					icon = GFX_focus_citadel
 					available = {
 						Date > 1943.5.1
 						NOT={has_idea=GER_barbarossa }
@@ -4054,7 +4054,7 @@ focus_tree = {
 					id = GER_operation_solstice
 			
 					prerequisite = { focus = GER_operation_citadel }
-					icon = GFX_focus_ger_reichskommisariats
+					icon = GFX_focus_last_offensive
 					available = {
 						Date > 1944.5.1
 						NOT={ has_idea =GER_barbarossa }
