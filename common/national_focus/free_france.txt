@@ -110,7 +110,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = SAF_gold_exports
+			add_ideas = AST_invest_in_victory_2
 		}
 	}
 
@@ -459,6 +459,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		
+			add_ideas = production_cult
+		
 			add_tech_bonus = {
 				name = FRF_artillery_focus
 				bonus = 1.00 
@@ -495,6 +498,10 @@ focus_tree = {
 		available_if_capitulated = yes
 	
 		completion_reward = {
+		
+		
+		add_ideas = GDU_armored_operation_idea
+		
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 0.5
