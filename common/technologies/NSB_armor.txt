@@ -250,6 +250,9 @@ technologies = {
 			light_tank_artillery_chassis_2
 			light_tank_aa_chassis_2
 		}
+		enable_subunits = {
+ 			light_armor
+		}
 
 
 		path = {
@@ -272,10 +275,6 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -1 y = 2 }
-		}
-
-		sub_technologies = {
-			paradrop_tank_chassis
 		}
 
 		ai_will_do = {
