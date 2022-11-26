@@ -56,7 +56,7 @@ focus_tree = {
 				type = medium_tank_chassis_2
 				parent_version = 0
 				modules = {
-					main_armament_slot = tank_medium_cannon_2
+					#main_armament_slot = tank_medium_cannon_2
 					turret_type_slot = tank_medium_three_man_tank_turret
 					suspension_type_slot = tank_interleaved_suspension
 					armor_type_slot = tank_welded_armor
@@ -64,7 +64,7 @@ focus_tree = {
 					special_type_slot_1 = tank_radio_2
 					special_type_slot_2 = secondary_turret_small_cannon
 					special_type_slot_3 = extra_ammo_storage
-					special_type_slot_4 = wet_ammo_storage
+					#special_type_slot_4 = wet_ammo_storage
 				}
 				upgrades={
 					tank_nsb_engine_upgrade=5
@@ -110,7 +110,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = AST_invest_in_victory_2
+			add_ideas = SAF_gold_exports
 		}
 	}
 
@@ -459,9 +459,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		
-			add_ideas = production_cult
-		
 			add_tech_bonus = {
 				name = FRF_artillery_focus
 				bonus = 1.00 
@@ -498,10 +495,6 @@ focus_tree = {
 		available_if_capitulated = yes
 	
 		completion_reward = {
-		
-		
-		add_ideas = GDU_armored_operation_idea
-		
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 0.5
@@ -721,7 +714,7 @@ focus_tree = {
 		prerequisite = { 
 		   focus = FRF_reform_our_doctrine
 		}
-		x = 8
+		x = 10
 		y = 2
 		cost = 5
 

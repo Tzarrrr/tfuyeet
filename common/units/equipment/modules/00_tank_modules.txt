@@ -525,7 +525,7 @@
 
 		add_stats = {
 			build_cost_ic = 2
-			breakthrough = 10
+			breakthrough = 6
 		}
 		
 		multiply_stats = {
@@ -551,7 +551,7 @@
 
 		add_stats = {
 			build_cost_ic = 3
-			breakthrough = 16
+			breakthrough = 12
 		}
 		
 		multiply_stats = {
@@ -577,8 +577,7 @@
 
 		add_stats = {
 			build_cost_ic = 4
-			maximum_speed = -0.25
-			breakthrough = 20
+			breakthrough = 18
 		}
 		
 		multiply_stats = {
@@ -1612,8 +1611,8 @@
 			forbid_equipment_type = artillery
 
 			add_stats = {
-				soft_attack = 28
-				hard_attack = 22
+				soft_attack = 25
+				hard_attack = 20
 				ap_attack = 60
 				build_cost_ic = 5
 				maximum_speed = -0.2
@@ -1639,8 +1638,8 @@
 			forbid_equipment_type = artillery
 			parent = tank_medium_cannon
 			add_stats = {
-				soft_attack = 33
-				hard_attack = 27
+				soft_attack = 30
+				hard_attack = 25
 				ap_attack = 90
 				build_cost_ic = 6
 				maximum_speed = -0.3
@@ -1665,8 +1664,8 @@
 			allow_equipment_type = anti_tank
 			parent = tank_medium_cannon
 			add_stats = {
-				soft_attack = 39
-				hard_attack = 33
+				soft_attack = 35
+				hard_attack = 30
 				ap_attack = 135
 				build_cost_ic = 8
 				maximum_speed = -0.3
@@ -1688,8 +1687,8 @@
 			allow_equipment_type = anti_tank
 
 			add_stats = {
-				soft_attack = 22
-				hard_attack = 28
+				soft_attack = 20
+				hard_attack = 25
 				ap_attack = 60
 				build_cost_ic = 5
 				maximum_speed = -0.2
@@ -1716,8 +1715,8 @@
 			allow_equipment_type = anti_tank
 
 			add_stats = {
-				soft_attack = 27
-				hard_attack = 33
+				soft_attack = 25
+				hard_attack = 30
 				ap_attack = 90
 				build_cost_ic = 6
 				maximum_speed = -0.3
@@ -1743,8 +1742,8 @@
 			parent = tank_high_velocity_cannon
 
 			add_stats = {
-				soft_attack = 33
-				hard_attack = 39
+				soft_attack = 31
+				hard_attack = 35
 				ap_attack = 135
 				build_cost_ic = 8
 				maximum_speed = -0.3
