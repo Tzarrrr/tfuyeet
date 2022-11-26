@@ -3574,23 +3574,23 @@ SpriteType = {
 	}
 	SpriteType = { 
 		name = "GFX_focus_last_offensive"
-		texturefile = "gfx/interface/goals/last_offensive.tga"
+		texturefile = "gfx/interface/goals/last_offensive.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_citadel"
-		texturefile = "gfx/interface/goals/citadel.tga"
+		texturefile = "gfx/interface/goals/citadel.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_blau"
-		texturefile = "gfx/interface/goals/blau.tga"
+		texturefile = "gfx/interface/goals/blau.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_benelux_inv"
-		texturefile = "gfx/interface/goals/benelux_inv.tga"
+		texturefile = "gfx/interface/goals/benelux_inv.dds"
 	}
 #	SpriteType = { 
 #		name = "GFX_focus_"
-#		texturefile = "gfx/interface/goals/.tga"
+#		texturefile = "gfx/interface/goals/.dds"
 #	}
 
 }
