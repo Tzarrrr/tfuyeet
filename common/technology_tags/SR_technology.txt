@@ -1,4 +1,5 @@
 technology_categories = {
 	special_forces
+	tank_modules
 }
 

@@ -780,8 +780,23 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_EMI_small_drop_tanks"
+		name = "GFX_EMI_APDS_ammo"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/small_drop_tanks.dds"
 		legacy_lazy_load = no
 	}	
+	spriteType = {
+		name = "GFX_EMI_LRP_ammo"
+		textureFile = "gfx/interface/LRP_ammo.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_HEAT_ammo"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/small_drop_tanks.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_small_drop_tanks"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/small_drop_tanks.dds"
+		legacy_lazy_load = no
+	}
 }

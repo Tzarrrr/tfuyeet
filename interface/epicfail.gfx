@@ -332,5 +332,11 @@ spriteTypes = {
 		name = "GFX_terrain_deep_desert"
 		textureFile = "gfx/interface/terrains/terrain_desert.dds"
 	}
+	SpriteType = {
+        name = "GFX_tank_ammo_medium"
+        texturefile = "gfx/interface/LRP_ammo.dds"
+	}
+
+
 
 }
