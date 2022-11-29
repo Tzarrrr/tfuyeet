@@ -1282,7 +1282,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1.25
+			build_cost_ic = 0.75
 			defense = 1
 		}
 		
@@ -1298,7 +1298,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1.75
+			build_cost_ic = 1
 			defense = 2
 		}
 
@@ -1314,7 +1314,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 2.25
+			build_cost_ic = 1.25
 			defense = 3
 		}
 		
@@ -1436,7 +1436,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 0.5
 			defense = 3
 			breakthrough = 2
 		}
