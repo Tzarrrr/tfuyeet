@@ -35,7 +35,7 @@ country = {
 	industrial_capacity_dockyard = -1.20
 	conversion_cost_civ_to_mil_factor = 3.0	
 	production_lack_of_resource_penalty_factor = -1
-	production_speed_naval_base_factor = 4
+	
 		}
 	}
 	
