@@ -155,7 +155,7 @@
 	
 	tank_basic_armor = {
 		abbreviation = "bas"
-		category = tank_armor_layout
+	#	category = tank_special_module
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 4
 		add_stats = {
@@ -168,48 +168,51 @@
 	
 	tank_half_sloped_armor = {
 		abbreviation = "hss"
-		category = tank_armor_layout
+		category = tank_special_module
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
 			defense = 1
 			breakthrough = 1
+			build_cost_ic = 1
 		}
 
 		multiply_stats = {
-			armor_value = 0.2
+			armor_value = 0.1
 			reliability = -0.05						
 		}
 	}	
 	
 	tank_fully_sloped_armor = {
 		abbreviation = "fss"
-		category = tank_armor_layout
+		category = tank_special_module
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
 			defense = 2
 			breakthrough = 2
+			build_cost_ic = 2
 		}
 
 		multiply_stats = {
-			armor_value = 0.5
+			armor_value = 0.2
 			reliability = -0.1	
 		}
 	}	
 	
 	tank_advanced_armor = {
 		abbreviation = "ass"
-		category = tank_armor_layout
+		category = tank_special_module
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
 			defense = 3
 			breakthrough = 3
+			build_cost_ic = 3
 		}
 
 		multiply_stats = {
-			armor_value = 0.8
+			armor_value = 0.4
 			reliability = -0.05		
 		}
 	}
@@ -403,7 +406,7 @@
 		build_cost_resources = {
 			steel = 1
 		}
-	}	
+	}
 
 	###Turret Types - light
 	### turrets are split by chassis to make it easier to control which guns they can mount
@@ -1492,7 +1495,8 @@
 
 		add_stats = {
 			reliability = 0.2		
-			breakthrough = 1			
+			breakthrough = 1	
+			build_cost_ic = 1		
 		}
 		
 		multiply_stats = {
