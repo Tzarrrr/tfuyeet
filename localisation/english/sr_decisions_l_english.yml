@@ -110,6 +110,9 @@ GDU_infantry_offensive_idea:0 "Infantry Offensives Operations"
 GDU_org_operation_idea:0 "Army Reorganization"
 GDU_air_land_battle_operation_idea:0 "Combined Arms Operations"
 
+Atlantic_Wall_Garrison_1:0 "Atlantic Wall"
+Prepare_Overlord:0 "Prepare Operation Overlord"
+
 
 
 

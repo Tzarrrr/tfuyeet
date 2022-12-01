@@ -546,6 +546,206 @@ foreign_politics = {
 	
 	
 	
+	Prepare_Overlord = {  
+
+	    icon = generic_civil_support
+
+        allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = USA
+			}
+			
+        }
+
+        visible = {
+		has_game_rule = {  rule = horst_vichy_france    option = HORST_ENABLE_VICHY_FRANCE   }
+        }
+
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = {
+		458 = { NOT = { is_controlled_by = ITA }}
+		451 = { NOT = { is_controlled_by = ITA }}
+		446 = { NOT = { is_controlled_by = ITA }}
+			
+		}
+		
+		
+		complete_effect = {
+			14 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1 }
+ 					province = {
+ 						id =3552
+ 						id =6572
+ 						id =9525
+						id =11508
+						id =542
+						id =6536
+						id =9510
+ 					}
+ 				}
+ 			}
+			
+			15 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = {  Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =9550
+ 						id =6449
+ 						id =3579
+						id =11535
+						id =6599
+						id =9434
+						id =485
+ 					}
+ 				}
+ 			}
+			
+			29 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =9500
+ 						id =11548
+						id =575
+ 					}
+ 				}
+ 			}
+			
+			30 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =11465
+ 						id =11616
+ 					}
+ 				}
+ 			}
+			
+			23 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =11600
+ 						id =6657
+						id =9597
+ 					}
+ 				}
+ 			}
+			
+			19 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =11565
+ 						id =9737
+						id =6621
+						id =6777
+						id =9710
+						id =743
+ 					}
+ 				}
+ 			}
+			
+			6 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1  }
+ 					province = {
+ 						id =6446
+ 						id =6560
+						id =6598
+ 					}
+ 				}
+ 			}
+			
+			35 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1 }
+ 					province = {
+ 						id =480
+ 						id =9431
+ 					}
+ 				}
+ 			}
+			
+			7 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1 }
+ 					province = {
+ 						id =9498
+ 						id =3211
+						id =68
+						id =3314
+ 					}
+ 				}
+ 			}
+			
+			36 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =6336
+ 						id =9335
+						id =11318
+ 					}
+ 				}
+ 			}
+			
+			56 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =336
+						id =11360
+ 					}
+ 				}
+ 			}
+			
+			346 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =241
+ 					}
+ 				}
+ 			}
+			
+			59 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =3326
+						id =374
+						id =6349
+ 					}
+ 				}
+ 			}
+			
+			340 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+ 						id =6352
+						id =9347
+ 					}
+ 				}
+ 			}
+			
+			454 = {
+ 				remove_province_modifier = {
+ 					static_modifiers = { Atlantic_Wall_Garrison_1}
+ 					province = {
+						id =11420
+ 					}
+ 				}
+ 			}
+		}	
+	}
+	
 	operation_torch = {  
 
 	    icon = generic_civil_support

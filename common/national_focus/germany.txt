@@ -2506,7 +2506,7 @@ focus_tree = {
 		}	
 		
 				available = { 				
-			date > 1940.6.1
+			FRA = { has_capitulated = yes }
 			}
 			
 			completion_reward = {
@@ -2769,7 +2769,7 @@ focus_tree = {
 			
 			14 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1 }
  					province = {
  						id =3552
  						id =6572
@@ -2784,7 +2784,7 @@ focus_tree = {
 			
 			15 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =9550
  						id =6449
@@ -2799,7 +2799,7 @@ focus_tree = {
 			
 			29 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =9500
  						id =11548
@@ -2810,7 +2810,7 @@ focus_tree = {
 			
 			30 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =11465
  						id =11616
@@ -2820,7 +2820,7 @@ focus_tree = {
 			
 			23 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =11600
  						id =6657
@@ -2831,7 +2831,7 @@ focus_tree = {
 			
 			19 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =11565
  						id =9737
@@ -2845,7 +2845,7 @@ focus_tree = {
 			
 			6 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1  }
  					province = {
  						id =6446
  						id =6560
@@ -2856,7 +2856,7 @@ focus_tree = {
 			
 			35 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1 }
  					province = {
  						id =480
  						id =9431
@@ -2866,7 +2866,7 @@ focus_tree = {
 			
 			7 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1 }
  					province = {
  						id =9498
  						id =3211
@@ -2878,7 +2878,7 @@ focus_tree = {
 			
 			36 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =6336
  						id =9335
@@ -2889,7 +2889,7 @@ focus_tree = {
 			
 			56 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =336
 						id =11360
@@ -2899,7 +2899,7 @@ focus_tree = {
 			
 			346 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =241
  					}
@@ -2908,7 +2908,7 @@ focus_tree = {
 			
 			59 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =3326
 						id =374
@@ -2919,7 +2919,7 @@ focus_tree = {
 			
 			340 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
  						id =6352
 						id =9347
@@ -2929,7 +2929,7 @@ focus_tree = {
 			
 			454 = {
  				add_province_modifier = {
- 					static_modifiers = { Atlantic_Wall_Garrison }
+ 					static_modifiers = { Atlantic_Wall_Garrison Atlantic_Wall_Garrison_1}
  					province = {
 						id =11420
  					}

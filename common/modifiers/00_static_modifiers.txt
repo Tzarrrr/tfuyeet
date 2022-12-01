@@ -159,6 +159,11 @@ Atlantic_Wall_Garrison = { # on Province
 	
 }
 
+Atlantic_Wall_Garrison_1 = { # on Province
+naval_invasion_penalty = 0.3
+	
+}
+
 battle_of_north_africa = { # on Province
 	army_armor_speed_factor = -0.125
 	army_armor_attack_factor = -0.05

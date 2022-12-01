@@ -291,10 +291,10 @@ characters={
 				large="gfx/leaders/ROM/Portrait_Romania_Dumitru_Popescu.tga"
 			}
 		}
-		corps_commander={
-			traits={ career_officer harsh_leader trait_mountaineer hill_fighter }
-			skill=4
-			attack_skill=2
+		field_marshal={
+			traits={ career_officer harsh_leader ranger panzer_leader urban_assault_specialist trait_engineer }
+			skill=5
+			attack_skill=8
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=4
@@ -352,7 +352,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trait_reckless media_personality harsh_leader infantry_officer infantry_leader naval_invader desert_fox }
+			traits={ trait_reckless media_personality harsh_leader infantry_officer infantry_leader naval_invader trait_mountaineer }
 			skill=3
 			attack_skill=5
 			defense_skill=2

@@ -62,6 +62,15 @@ semi_autonomous_state = {
 	state_production_speed_buildings_factor = -0.25
 }
 
+atlantik_wall_0 = { 
+	enable = { always = yes }
+	
+	icon = GFX_idea_generic_fortify_the_borders	
+
+	naval_invasion_penalty = -0.4
+	max_dig_in = 10
+}
+
 kurdish_agitation = {
 	enable = { always = yes }
 
