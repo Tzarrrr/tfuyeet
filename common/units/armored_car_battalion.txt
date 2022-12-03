@@ -12,7 +12,7 @@ sub_units = {
 			motorized
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_front_line
