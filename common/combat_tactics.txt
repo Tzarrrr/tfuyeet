@@ -131,7 +131,7 @@ tactic_multi_wave_invasion = {
 
 	combat_width = 0.5
 
-	attacker = -0.50
+	attacker = -0.30
 	defender = -0.70
 }
 
