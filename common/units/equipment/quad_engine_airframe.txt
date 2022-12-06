@@ -217,6 +217,6 @@ equipments = {
 		air_range = 1000
 		maximum_speed = 250
 		air_agility = 5
-		air_defence = 7
+		air_defence = 9
 	}
 }
