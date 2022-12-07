@@ -28,7 +28,7 @@ NDefines.NSupply.CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0 -- supply from one civili
 NDefines.NSupply.CAPITAL_SUPPLY_MILITARY_FACTORIES = 0 -- supply from one military factory
 NDefines.NSupply.CAPITAL_SUPPLY_DOCKYARDS = 0 --supply from one naval factory
 
-NDefines.NSupply.LOCAL_SUPPLY_PER_AIR_MISSION = 0.03	 -- each assigned plane gives this much supply at full efficiency
+NDefines.NSupply.LOCAL_SUPPLY_PER_AIR_MISSION = 0.05	 -- each assigned plane gives this much supply at full efficiency
 
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_ATTACK = -0.15    -- attack combat penalty for attacker if out of supply
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_DEFEND = -0.50     -- defend combat penalty for attacker if out of supply
