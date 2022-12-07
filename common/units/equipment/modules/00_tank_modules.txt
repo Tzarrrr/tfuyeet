@@ -1376,7 +1376,7 @@
 			hard_attack = 5
 			build_cost_ic = 2.75
 			maximum_speed = -0.25
-			reliability = -0.1
+			reliability = -0.05
 			breakthrough = 2
 		}
 		
@@ -1439,7 +1439,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 0.75
 			defense = 3
 			breakthrough = 2
 		}
@@ -1549,7 +1549,7 @@
 		forbid_equipment_type = anti_tank
 
 		add_stats = {
-			entrenchment = 1.5
+			entrenchment = 4
 			build_cost_ic = 2.75
 		}
 		
@@ -1564,7 +1564,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 2.50
+			build_cost_ic = 2
 			breakthrough = 6
 			defense = 6
 		}
@@ -1579,7 +1579,7 @@
 
 		add_stats = {
 			reliability = 0.1
-			build_cost_ic = 0.5
+			build_cost_ic = 0.25
 		}
 		
 		multiply_stats = {
@@ -1595,7 +1595,7 @@
 		add_stats = {
 			soft_attack = 3.25
 			defense = 1
-			build_cost_ic = 0.55
+			build_cost_ic = 0.6
 		}
 		
 		multiply_stats = {
@@ -1617,7 +1617,7 @@
 				ap_attack = 60
 				build_cost_ic = 5
 				maximum_speed = -0.2
-				reliability = -0.15
+				reliability = -0.1
 				breakthrough = 2
 			}
 			
@@ -1644,7 +1644,7 @@
 				ap_attack = 90
 				build_cost_ic = 6
 				maximum_speed = -0.3
-				reliability = -0.15
+				reliability = -0.1
 				breakthrough = 4
 			}
 			
@@ -1670,7 +1670,7 @@
 				ap_attack = 135
 				build_cost_ic = 8
 				maximum_speed = -0.3
-				reliability = -0.15
+				reliability = -0.1
 				breakthrough = 5
 			}
 			
@@ -1693,7 +1693,7 @@
 				ap_attack = 60
 				build_cost_ic = 5
 				maximum_speed = -0.2
-				reliability = -0.125
+				reliability = -0.1
 				breakthrough = 2
 			}
 			
@@ -1721,7 +1721,7 @@
 				ap_attack = 90
 				build_cost_ic = 6
 				maximum_speed = -0.3
-				reliability = -0.15
+				reliability = -0.1
 				breakthrough = 4
 			}
 			
@@ -1748,7 +1748,7 @@
 				ap_attack = 135
 				build_cost_ic = 8
 				maximum_speed = -0.3
-				reliability = -0.15
+				reliability = -0.1
 				breakthrough = 5
 			}
 			
