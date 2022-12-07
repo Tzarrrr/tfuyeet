@@ -1516,6 +1516,33 @@ focus_tree = {
 		}
 	}
 
+	focus= {
+		id = ITA_cas_bonus
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = ITA_air_innovation }
+
+		available = { date > 1939.1.1 }
+
+		x = 1
+		y = 0
+		relative_position_id = ITA_air_innovation
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cas_bomber
+				bonus = 3.0
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
 	focus = {
 		id = ITA_carrier_effort
 		icon = GFX_goal_generic_navy_carrier
