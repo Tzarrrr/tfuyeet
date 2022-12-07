@@ -9,7 +9,10 @@ spriteTypes = {
 	
 	##################################
 	### Large images for DIVISIONS ###
-
+	spriteType = { name = "GFX_unit_military_police2_icon_medium" 							textureFile = "gfx/interface/counters/divisions_large/unit_military_police2_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_blackshirt_assault_battalion2_icon_medium" 							textureFile = "gfx/interface/counters/divisions_large/unit_blackshirt_assault_battalion2_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_blackshirt_assault_battalion_icon_medium" 							textureFile = "gfx/interface/counters/divisions_large/unit_blackshirt_assault_battalion_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_militia_icon_medium" 									textureFile = "gfx/interface/counters/divisions_large/unit_militia_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_sp_artillery_brigade_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_artillery_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_super_heavy_sp_artillery_brigade_icon_medium"			textureFile = "gfx/interface/counters/divisions_large/unit_super_heavy_armor_artillery_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_sp_artillery_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_heavy_armor_artillery_icon.dds" noOfFrames = 2 }
@@ -77,7 +80,10 @@ spriteTypes = {
 	
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
-
+	spriteType = { name = "GFX_unit_military_police2_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/unit_military_police2_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_blackshirt_assault_battalion2_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/unit_blackshirt_assault_battalion2_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_unit_blackshirt_assault_battalion_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_blackshirt_assault_battalion_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_militia_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_militia_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_modern_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_super_heavy_armor_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_super_heavy_armor_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_marine_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_marine_icon.dds" noOfFrames = 2}

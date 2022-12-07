@@ -254,11 +254,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conversion_cost_civ_to_mil_factor = 0.80
-				# production_factory_efficiency_gain_factor = 0.15
-				production_speed_arms_factory_factor = 0.05
+				conversion_cost_civ_to_mil_factor = -0.2
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_arms_factory_factor = 0.1
 				min_export = -0.10
-				equipment_conversion_speed = 0.15
 			}
 		}
 		
@@ -999,7 +998,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.05
 				min_export = -0.10
 			}
 		}

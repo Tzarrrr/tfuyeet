@@ -623,7 +623,7 @@ focus_tree = {
 			custom_effect_tooltip = "The US is now allowed to join the war
 			"
 			add_timed_idea = { idea = USA_the_giant_wakes days = 1100 }
-			add_ideas = war_economy
+			add_ideas = tot_economic_mobilisation
 			random_owned_controlled_state = {
 				limit = { is_core_of = USA }
 				add_extra_state_shared_building_slots = 5

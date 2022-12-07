@@ -24,18 +24,17 @@ equipments = {
 		#Misc Abilities
 		maximum_speed 	= 12
 		reliability 	= 0.8
-		#recon 			= 2
 
 		#Defensive Abilities
-		defense 		= 3
-		breakthrough 	= 16
+		defense 		= 8.5
+		breakthrough 	= 26
 		hardness 		= 0.65
-		armor_value 	= 10
+		armor_value 	= 20
 
 		#Offensive Abilities
-		soft_attack 	= 13
-		hard_attack 	= 4
-		ap_attack 		= 8
+		soft_attack 	= 27
+		hard_attack 	= 8
+		ap_attack 		= 32
 		air_attack 		= 0
 
 		#Space taken in convoy
@@ -61,19 +60,20 @@ equipments = {
 		
 
 		#Misc Abilities
-		maximum_speed 	= 9
+		maximum_speed 	= 12
 		reliability 	= 0.8
-		#recon 			= 1
+		#recon 			= 2
 
 		#Defensive Abilities
-		defense 		= 2
-		breakthrough 	= 12
-		armor_value 	= 3
+		defense 		= 4
+		breakthrough 	= 20
+		hardness 		= 0.65
+		armor_value 	= 16
 
 		#Offensive Abilities
-		soft_attack 	= 6
-		hard_attack 	= 2
-		ap_attack 		= 6
+		soft_attack 	= 18
+		hard_attack 	= 6
+		ap_attack 		= 30
 		air_attack 		= 0
 
 		build_cost_ic 		= 3
@@ -102,20 +102,20 @@ equipments = {
 		is_convertable = yes
 
 		#Misc Abilities
-		maximum_speed 	= 15
+		maximum_speed 	= 12
+		reliability 	= 0.8
 
 		#Defensive Abilities
-		defense 		= 5
-		breakthrough 	= 28
-		hardness 		= 0.70
-		armor_value 	= 20
-		#recon 			= 2
+		defense 		= 11
+		breakthrough 	= 34
+		hardness 		= 0.65
+		armor_value 	= 22
 
 		#Offensive Abilities
-		soft_attack 	= 16
-		hard_attack 	= 8
-		ap_attack 		= 36
-		air_attack 		= 0		
+		soft_attack 	= 30
+		hard_attack 	= 10
+		ap_attack 		= 38
+		air_attack 		= 0
 		
 		build_cost_ic = 5
 		resources = {
