@@ -613,7 +613,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.1
+				production_factory_max_efficiency_factor = 0.75
 			}
 		}
 		FRA_occupation_costs_4 = {
@@ -701,8 +701,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.1 #TODO_GABRIEL: replace with +15% resistance target in core states
-			}
+				stability_factor = -0.1 
+				industrial_capacity_factory = 0.15
 		}
 
 		VIC_guest_workers = {
