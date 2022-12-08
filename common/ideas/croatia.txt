@@ -324,4 +324,17 @@ ideas = {
 	# 	}
 
 	# }		
-}
+
+		CRO_hidden_materials = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = CRO
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.12
+			}
+		}

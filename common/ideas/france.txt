@@ -416,7 +416,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_factory_efficiency_gain_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.25
 			}
 		}
 		FRA_constitutional_revision = {

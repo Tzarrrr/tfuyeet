@@ -336,13 +336,7 @@
 			y = 0
 		}
 		prerequisite = { 
-			focus = CRO_celebrate_motherhood
-		}
-		prerequisite = { 
-			focus = CRO_aid_small_businesses
-		}
-		prerequisite = { 
-			focus = CRO_mandatory_work_service
+			focus = CRO_celebrate_motherhood focus = CRO_mandatory_work_service focus = CRO_aid_small_businesses
 		}
 		relative_position_id = CRO_celebrate_motherhood
 		
@@ -655,8 +649,12 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			# add_research_slot = 1
-			add_ideas = { FRA_national_bureau_of_statistics }
+			add_tech_bonus = {
+				name = CRO_the_national_bureau_of_statistics
+				category = industry
+				uses = 1
+				bonus = 0.5
+			}
 		}
 	}
 	focus = {
@@ -727,7 +725,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			add_ideas = { FRA_hidden_materials }
+			add_ideas = { CRO_hidden_materials }
 		}
 	}
 	focus = {
