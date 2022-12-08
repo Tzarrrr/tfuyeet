@@ -78,7 +78,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ brilliant_strategist career_officer harsh_leader politically_connected war_hero trait_engineer urban_assault_specialist infantry_leader infantry_expert }
+			traits={ brilliant_strategist career_officer harsh_leader politically_connected war_hero trait_engineer urban_assault_specialist infantry_leader infantry_expert organizer7 }
 			skill=5
 			attack_skill=6
 			defense_skill=5

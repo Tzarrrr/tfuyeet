@@ -203,7 +203,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ brilliant_strategist career_officer trait_cautious politically_connected organizer desert_fox panzer_leader panzer_expert fast_planner offensive_doctrine }
+			traits={ brilliant_strategist career_officer trait_cautious politically_connected organizer desert_fox panzer_leader panzer_expert fast_planner offensive_doctrine logistics_wizard }
 			skill=5
 			attack_skill=6
 			defense_skill=2

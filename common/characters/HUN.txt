@@ -546,9 +546,9 @@ characters={
 				cost = 150.000
 		}
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer politically_connected organizer skilled_staffer ranger logistics_wizard thorough_planner inspirational_leader }
+			traits={ old_guard inflexible_strategist career_officer politically_connected organizer skilled_staffer ranger logistics_wizard thorough_planner inspirational_leader infantry_leader }
 			skill=5
-			attack_skill=3
+			attack_skill=4
 			defense_skill=5
 			planning_skill=3
 			logistics_skill=6
@@ -586,7 +586,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ brilliant_strategist career_officer harsh_leader infantry_leader trickster offensive_doctrine panzer_leader }
+			traits={ brilliant_strategist career_officer harsh_leader infantry_leader trickster offensive_doctrine panzer_leader organizer }
 			skill=5
 			attack_skill=5
 			defense_skill=3

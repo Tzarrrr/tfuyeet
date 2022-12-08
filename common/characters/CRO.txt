@@ -117,7 +117,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected organizer ranger panzer_leader defensive_doctrine }
+			traits={ old_guard inflexible_strategist politically_connected organizer ranger panzer_leader defensive_doctrine organizer }
 			skill=5
 			attack_skill=8
 			defense_skill=6
@@ -157,7 +157,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ old_guard inflexible_strategist career_officer politically_connected organizer skilled_staffer defensive_doctrine infantry_leader }
+			traits={ old_guard inflexible_strategist career_officer politically_connected organizer skilled_staffer defensive_doctrine infantry_leader organizer }
 			skill=4
 			attack_skill=4
 			defense_skill=3
