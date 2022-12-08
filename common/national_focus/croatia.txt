@@ -724,9 +724,17 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		
 		completion_reward = {
-			add_ideas = { CRO_hidden_materials }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = CRO }
+		    add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1p00 producer = CRO }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 750 producer = CRO }
+			add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 500 producer = CRO }
+			add_equipment_to_stockpile = { type = anti_tank_equipment_1  amount = 500 producer = CRO }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 1000 producer = CRO }
+			
 		}
+		
 	}
 	focus = {
 		id = CRO_analyze_our_defeat
