@@ -704,6 +704,7 @@ ideas = {
 				stability_factor = -0.1 
 				industrial_capacity_factory = 0.15
 		}
+	}
 
 		VIC_guest_workers = {
 			picture = generic_exploit_mines
