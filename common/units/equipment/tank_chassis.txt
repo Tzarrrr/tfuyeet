@@ -803,6 +803,12 @@ equipments = {
 					tank_radio_module
 				}
 			}
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+				tank_special_ammo
+				}
+			}
 		}
 		default_modules = {
 			main_armament_slot = empty
@@ -1170,6 +1176,12 @@ equipments = {
 					tank_special_module
 					tank_secondary_turret
 					tank_radio_module
+				}
+			}
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+				tank_special_ammo
 				}
 			}
 		}
