@@ -358,7 +358,7 @@
  ROM_artillery_modernization_desc:0 "Infantry do not function with proper artillery support. Ensuring modern, high-quality guns will go a long way to improving the effectiveness of our forces."
  ROM_modern_at_guns:0 "Modern AT Guns"
  ROM_modern_at_guns_desc:0 "The age of the tank has arrived, and our infantry require up-to-date means to defend themselves against these steel behemoths."
- ROM_mountain_artillery:0 "Mountain Artillery"
+ ROM_mountain_artillery:0 "Recycle Captured Tanks"
  ROM_mountain_artillery_tech_tt:0 "Enables §HMountain Gun§!\n§HArtillery\n    Mountain§!: Movement: §G+15%§!\n§HAnti-Tank\n    Mountain§!: Movement: §G+15%§!"
  ROM_mountain_artillery_desc:0 "Our mountaineers must receive the artillery support they are due, if we are to preserve their excellence. Our artillery must therefore be adapted for mountain use."
  ROM_reserve_divisions:0 "Reserve Divisions"

@@ -24,6 +24,7 @@
  arm_the_workers:0 "Arm the Workers"
  arm_the_workers_desc:0 "Arm the Workers"
  wartime_propaganda:0 "Wartime Propaganda"
+ ROM_gun_ic:0 "Recycle Captured Tanks"
  wartime_propaganda_desc:0 "Wartime Propaganda"
  GER_armaments_miracle:0 "Armaments Miracle"
  GER_armaments_miracle_desc:0 "A huge propaganda effort implemented by Reich Minister of Armaments and War Production, Albert Speer, has seen an increase in arms production through the use of doctored statistics, slave labor, and lowering of production quality standards. Of key importance is the increased allocation of coal for the steel industry, allowing for a boom in ammunition production."

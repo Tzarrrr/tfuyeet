@@ -1025,7 +1025,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = ROM_the_zb_53
 
-		cost = 2
+		cost = 3
 
 
 		available = {
@@ -1057,7 +1057,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = ROM_the_zb_53
 
-		cost = 7
+		cost = 3
 
 
 		available = {
@@ -1151,6 +1151,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = ROM_mountain_artillery_tech_tt
+			add_ideas = ROM_gun_ic
 			hidden_effect = { set_technology = { mountain_gun = 1 } }
 		}
 	}
@@ -1629,3 +1630,4 @@ focus_tree = {
 			84 = { add_resource =  { type = steel amount = 3 } }
 		}
 	}
+}
