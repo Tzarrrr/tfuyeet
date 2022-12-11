@@ -825,7 +825,7 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 15
+			soft_attack = 30
 			hard_attack = 5
 			ap_attack = 20
 			build_cost_ic = 2.5
@@ -972,8 +972,8 @@
 		parent = tank_small_cannon
 		forbid_equipment_type = artillery
 		add_stats = {
-			soft_attack = 25
-			hard_attack = 11
+			soft_attack = 33
+			hard_attack = 16
 			ap_attack = 60
 			build_cost_ic = 2.95
 			maximum_speed = -0.2
@@ -993,8 +993,8 @@
 		parent = tank_small_cannon_2
 		forbid_equipment_type = artillery
 		add_stats = {
-			soft_attack = 30
-			hard_attack = 14
+			soft_attack = 36
+			hard_attack = 20
 			ap_attack = 75
 			build_cost_ic = 3.2
 			maximum_speed = -0.2
@@ -1014,7 +1014,7 @@
 		allow_equipment_type = artillery
 		forbid_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 26.5
+			soft_attack = 60
 			hard_attack = 5
 			ap_attack = 12
 			build_cost_ic = 4.5
