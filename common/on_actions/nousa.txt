@@ -1,0 +1,19 @@
+on_actions = {
+	on_startup = {
+			effect = {
+				limit = {
+						has_game_rule = {
+							rule = sr_no_asia
+							option = ENABLE_sr_no_asia
+						}
+						}
+					every_state = {
+						limit = {
+							is_owned_by = USA
+						}
+						add_core_of = SWE
+						transfer_state_to = SWE
+					}
+				}
+		}
+	}
