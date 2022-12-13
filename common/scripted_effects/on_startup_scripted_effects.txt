@@ -203,6 +203,7 @@ sr_no_asia = {
 		annex_country = { target = MAN transfer_troops = no }
 		annex_country = { target = SIA transfer_troops = no }
 		annex_country = { target = CHI transfer_troops = no }
+		annex_country = { target = USA transfer_troops = no }
 		#indochina
 		transfer_state = 671 transfer_state = 670 transfer_state = 286 transfer_state = 741 transfer_state = 728
 		#phillipenes
@@ -214,7 +215,6 @@ sr_no_asia = {
 		
 		transfer_state = 320
 		transfer_state = 316
-		transfer_state = 439
 
 		add_ideas = no_exports
 	}

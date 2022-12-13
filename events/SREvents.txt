@@ -84,6 +84,21 @@ country_event = {
 			}
 
 			hidden_effect = {
+			ENG = { add_ideas = USA_ships_for_victory_idea }
+			696 = { add_core_of = ENG }
+			696 = {
+				add_extra_state_shared_building_slots = 25
+				add_building_construction = {
+					type = industrial_complex
+					level = 15
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+					}
 				every_state = { limit = { is_core_of = RAJ }
 					remove_building = {
 						type = industrial_complex
