@@ -292,3 +292,22 @@ ideas = {
 
 	# }
 }
+
+		BUL_Geological_Knowledge = {
+
+			picture = CZE_planning_bonus
+
+			allowed = {
+				original_tag = BUL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				max_planning = 0.075
+			}
+		}
+	}
+}
