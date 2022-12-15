@@ -792,6 +792,23 @@ SPR_no_navy2 = {
 				planning_speed = 0.25
 			}
 		}
+		
+		BUL_Geological_Knowledge = {
+
+			picture = CZE_planning_bonus
+
+			allowed = {
+				original_tag = BUL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				max_planning = 0.075
+			}
+		}
 
 		SPA_the_plan_imperial = {
 

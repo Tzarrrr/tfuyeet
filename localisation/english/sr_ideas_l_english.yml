@@ -58,6 +58,7 @@
  sr1945_latewar:0 "1945 Conscription and Air Losses"
  sr1945_latewar_desc:0 "As the war grows in both scale and destructiveness, nations the world over shift their economies further towards total war, and enlist yet more of their nation's men to take part in this titanic struggle."
  prewar_training:0 "Pre-War Training"
+ BUL_Geological_Knowledge:0 "Geological Knowledge"
  prewar_training_desc:0 "Straight from GDU into Horst into SR"
  refinery_effort:0 "Synthetic Refinery Effort"
  refinery_effort_desc:0 "With the threat of Japanese incursion into the rubber islands, it has become clear that natural supplies of rubber and other important industrial goods cannot be guaranteed from natural sources half the world away. We must invest in synthetic production of rubber, before our war industry is irreparably damaged."
