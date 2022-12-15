@@ -387,6 +387,12 @@ set_technology = { basic_train = 1
 	# basic_heavy_spaa = 1
 }
 
+set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -510,6 +516,7 @@ set_popularities = {
 
 create_faction = Comintern
 add_to_faction = SOV
+add_to_faction = MON
 
 add_ideas = {
 	trotskyite_plot
