@@ -20,7 +20,7 @@ focus_tree = {
 	focus = {
 		id = MON_collectivisation
 		icon = GFX_focus_prc_agrarian_socialism
-		x = 1
+		x = 5
 		y = 0
 		cost = 10
 
@@ -71,7 +71,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_stability = -0.1
+			add_stability = -0.05
 		}
 	}
 
@@ -96,7 +96,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_stability = -0.1
+			add_stability = 0.15
 		}
 	}
 	
@@ -127,7 +127,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_sack_the_monastries
-		icon = GFX_SOV_borrow_spanish_gold
+		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 0
 		y = 1
 		cost = 10
@@ -153,17 +153,16 @@ focus_tree = {
 	
 	focus = {
 		id = MON_the_purge
-		icon = GFX_SOV_goal_great_purge
-		x = 0
+		icon = GFX_focus_SOV_military_purge
+		x = 9
 		y = 1
 		cost = 20
-		prerequisite = { focus = MON_sack_the_monastries }
+		prerequisite = { focus = MON_collectivisation }
 		available = {
 			has_government = communism
 			date > 1937.1.1
 		}
 		
-		relative_position_id = MON_sack_the_monastries
 		
 		available_if_capitulated = yes
 		
@@ -209,11 +208,10 @@ focus_tree = {
 	focus = {
 		id = MON_finish_collectivisation
 		icon = GFX_goal_generic_soviet_construction
-		x = 0
+		x = 3
 		y = 1
 		cost = 20
-		prerequisite = { focus = MON_follow_the_soviets }
-		relative_position_id = MON_follow_the_soviets
+		prerequisite = { focus = MON_collectivisation }
 		
 		available_if_capitulated = yes
 		
@@ -318,11 +316,10 @@ focus_tree = {
 	focus = {
 		id = MON_choibalsan_university
 		icon = GFX_focus_generic_socialist_science
-		x = 2
+		x = 7
 		y = 1
 		cost = 10
-		prerequisite = { focus = MON_follow_the_soviets }
-		relative_position_id = MON_follow_the_soviets
+		prerequisite = { focus = MON_collectivisation }
 		
 		available_if_capitulated = yes
 		
@@ -340,7 +337,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_soviet_experts
-		icon = GFX_SOV_new_officer_academies
+		icon = GFX_focus_YUG_pan_slavic_congress
 		x = 0
 		y = 1
 		cost = 10
@@ -366,7 +363,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_support_the_anti_fascist_war
-		icon = GFX_SOV_operation_luna
+		icon = GFX_focus_generic_provoke_border_clashes
 		x = 0
 		y = 1
 		cost = 10
@@ -419,7 +416,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_soviet_science
-		icon = GFX_SOV_progress_cult
+		icon = GFX_focus_research
 		x = 0
 		y = 1
 		cost = 10
@@ -442,9 +439,9 @@ focus_tree = {
 	focus = {
 		id = MON_industrial_development
 		icon = GFX_focus_generic_industry_3
-		mutually_exclusive = { focus = MON_traditional_way }
-		x = 4
-		y = 0
+		prerequisite = { focus = MON_collectivisation }
+		x = 1
+		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -478,7 +475,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_forced_urbanisation
-		icon = GFX_SOV_capitals_of_socialism_1
+		icon = GFX_focus_spa_the_spanish_miracle
 		x = 0
 		y = 1
 		cost = 10
@@ -536,7 +533,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_soviet_model
-		icon = GFX_SOV_stakhonovite
+		icon = GFX_focus_spa_the_spanish_miracle
 		x = 0
 		y = 1
 		cost = 10
@@ -589,7 +586,7 @@ focus_tree = {
 	
 	focus = {
 		id = MON_local_arms_production
-		icon = GFX_SOV_production_speed
+		icon = GFX_focus_war_production
 		x = 0
 		y = 1
 		cost = 10
@@ -666,12 +663,11 @@ focus_tree = {
 
 	focus = {
 		id = MON_mongolia_people_army
-		icon = GFX_SOV_red_army
+		icon = GFX_focus_SOV_organization_centralization_discipline
 		x = 13
-		y = 0
-
+		y = 2
 		cost = 10
-
+		prerequisite = { focus = MON_collectivisation }
 		ai_will_do = {
 			factor = 8
 		}
