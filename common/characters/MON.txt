@@ -142,7 +142,7 @@ characters={
 				original_tag = MON
 			}
 			traits  = {
-				army_chief_morale_2 
+				army_chief_offensive_2 
 			}
 			cost = 100
 			ai_will_do = {
@@ -327,7 +327,7 @@ characters={
 				has_completed_focus = MON_spirit_of_genghis
 			}
 			traits  = {
-				army_cavalry_3 
+				army_armored_2  
 			}
 			cost = 150
 			ai_will_do = {

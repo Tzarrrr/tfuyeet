@@ -3,11 +3,21 @@ state={
 	id=767
 	name="STATE_767"
 
+	resources={
+		aluminium= 6
+		steel= 26
+		tungsten= 36
+		oil= 12
+		
+	}
+
 	history={
 		owner = MON
 		add_core_of = MON
 		buildings = {
-			infrastructure = 0
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 5
 
 		}
 

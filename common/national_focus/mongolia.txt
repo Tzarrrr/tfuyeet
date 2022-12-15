@@ -156,7 +156,7 @@ focus_tree = {
 		icon = GFX_focus_SOV_military_purge
 		x = 9
 		y = 1
-		cost = 20
+		cost = 15
 		prerequisite = { focus = MON_collectivisation }
 		available = {
 			has_government = communism
@@ -210,7 +210,7 @@ focus_tree = {
 		icon = GFX_goal_generic_soviet_construction
 		x = 3
 		y = 1
-		cost = 20
+		cost = 10
 		prerequisite = { focus = MON_collectivisation }
 		
 		available_if_capitulated = yes
@@ -239,7 +239,7 @@ focus_tree = {
 		icon = GFX_focus_prc_agrarian_socialism
 		x = 0
 		y = 1
-		cost = 20
+		cost = 10
 		prerequisite = { focus = MON_finish_collectivisation }
 		relative_position_id = MON_finish_collectivisation
 		
@@ -280,17 +280,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			transfer_state = 329		 
 			add_state_core = 329
-			add_state_core = 618
-			add_state_core = 760
-			add_state_core = 759
-			add_state_core = 287
-			add_state_core = 619
-			add_state_core = 617
-			add_state_core = 618
-			add_state_core = 757
-			add_state_core = 758
-			add_state_core = 322
 		}
 	}
 
@@ -382,18 +373,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = horse_equipment
-				amount = 20000
-				producer = MON
-			}
-			add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 5000
-				producer = MON
-			}
-			add_equipment_to_stockpile = {
-				type = squad_equipment
-				amount = 2000
 				producer = MON
 			}
 			add_equipment_to_stockpile = {
@@ -403,11 +384,6 @@ focus_tree = {
 			}
 			add_equipment_to_stockpile = {
 				type = motorized_equipment
-				amount = 1000
-				producer = MON
-			}
-			add_equipment_to_stockpile = {
-				type = radio_equipment
 				amount = 1000
 				producer = MON
 			}
@@ -463,10 +439,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -520,10 +496,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -608,10 +584,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -623,10 +599,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -666,7 +642,7 @@ focus_tree = {
 		icon = GFX_focus_SOV_organization_centralization_discipline
 		x = 13
 		y = 2
-		cost = 10
+		cost = 5
 		prerequisite = { focus = MON_collectivisation }
 		ai_will_do = {
 			factor = 8
@@ -685,7 +661,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MON_mongolia_people_army
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 27
@@ -752,7 +728,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MON_army_modernisation
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 27
@@ -761,8 +737,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.5
-				uses = 2
+				bonus = 1.5
+				uses = 1
 				category = cat_mechanized_equipment
 			}
 		}
@@ -785,7 +761,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.5
+				bonus = 1.15
 				uses = 2
 				category = armor
 			}
@@ -825,7 +801,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MON_mongolia_people_army
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 27

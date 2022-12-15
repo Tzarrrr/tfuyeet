@@ -219,6 +219,7 @@ ideas = {
 				production_speed_buildings_factor = -0.25
 				supply_consumption_factor = -0.20
 				mobilization_speed = -0.75
+				weekly_manpower = 2500
 			}
 		}
 		
@@ -243,6 +244,7 @@ ideas = {
 				production_speed_buildings_factor = -0.2
 				supply_consumption_factor = -0.1
 				mobilization_speed = -0.5
+				weekly_manpower = 2500
 			}
 		}
 		
@@ -267,6 +269,7 @@ ideas = {
 				production_speed_buildings_factor = -0.1
 				supply_consumption_factor = -0.05
 				mobilization_speed = -0.25
+				weekly_manpower = 2500
 			}
 		}	
 
@@ -289,6 +292,7 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				production_speed_buildings_factor = -0.05
 				mobilization_speed = -0.1
+				weekly_manpower = 2500
 			}
 		}
 		
@@ -306,6 +310,7 @@ ideas = {
 
 			modifier = {
 				conscription = 0.04
+				weekly_manpower = 1000
 			}
 		}
 

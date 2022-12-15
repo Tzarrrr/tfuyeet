@@ -1414,7 +1414,7 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = SOV
-					original_tag = MAN
+					original_tag = MON
 				}
 			}
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
@@ -1448,7 +1448,7 @@ ideas = {
 		
 		astrov_design_bureau = {
 			allowed = {
-				original_tag = SOV
+				original_tag = SOV original_tag = MON
 			}
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 
@@ -1470,7 +1470,7 @@ ideas = {
 		
 		okmo = {
 			allowed = {
-				original_tag = SOV
+				original_tag = SOV original_tag = MON
 			}
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			
