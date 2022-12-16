@@ -269,7 +269,7 @@ focus_tree = {
 		icon = GFX_focus_por_workers_of_iberia
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = MON_collectivised_society}
 		relative_position_id = MON_collectivised_society
 		
@@ -280,8 +280,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			transfer_state = 329		 
-			add_state_core = 329
+			add_stability = 0.1 
 		}
 	}
 
@@ -454,7 +453,7 @@ focus_tree = {
 		icon = GFX_focus_spa_the_spanish_miracle
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = MON_industrial_development }
 		relative_position_id = MON_industrial_development
 		
@@ -468,7 +467,7 @@ focus_tree = {
 			767 = {
 				add_extra_state_shared_building_slots = 4
 			}
-			add_stability = -0.15
+			add_stability = -0.05
 		}
 	}
 	
@@ -625,7 +624,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = MON_nomad_3
+			remove_ideas = MON_nomad_0
 			767 = {
 				add_extra_state_shared_building_slots = 4
 			}

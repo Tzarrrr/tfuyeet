@@ -51,9 +51,35 @@ add_ideas = {
 	MON_nomad_0
 }
 
+dd_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 1250
+	producer = MON
+}  
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 900
+	producer = MON
+} 
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 4500
+	producer = MON
+} 
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 2000
+	producer = MON
+} 
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 1200
+	producer = MON
+} 
 
 set_convoys = 50
-
+set_research_slots = 3
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
@@ -61,8 +87,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 60
-	neutrality = 40
+	communism = 80
+	neutrality = 20
 }
 
 recruit_character = MON_khorloogiin_choibalsan
