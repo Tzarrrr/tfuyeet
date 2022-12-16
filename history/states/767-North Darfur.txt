@@ -5,9 +5,10 @@ state={
 
 	resources={
 		aluminium= 6
-		steel= 26
-		tungsten= 36
-		oil= 12
+		steel= 48
+		tungsten= 56
+		oil= 16
+		rubber 12
 		
 	}
 
