@@ -84,6 +84,10 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
+		militia = {
+			soft_attack = 0.05
+		}
+		
 		cavalry = {
 			soft_attack = 0.05
 		}
@@ -153,6 +157,10 @@ technologies = {
 	improved_infantry_weapons_2 = {
 
 		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		militia = {
 			soft_attack = 0.05
 		}
 		
@@ -294,7 +302,7 @@ technologies = {
 		cavalry = {
 			soft_attack = 0.1
 		}		
-
+	
 
 		motorized = {
 			soft_attack = 0.1
@@ -1252,6 +1260,12 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+		
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05 
+		}
+		
 		bicycle_battalion = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1328,6 +1342,12 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+		
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05 
+		}
+		
 		bicycle_battalion = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1412,6 +1432,12 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+		
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05 
+		}
+		
 		bicycle_battalion = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1496,6 +1522,12 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
+		
+		militia = {
+			defense = 0.05
+			breakthrough = 0.05 
+		}
+		
 		bicycle_battalion = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1572,6 +1604,11 @@ technologies = {
 			defense = 0.05
 		}
 		
+		militia = {
+			soft_attack = 0.05
+			defense = 0.05
+		}
+		
 		# path = {
 		# 	leads_to_tech = sniper_rifle_2
 		# 	research_cost_coeff = 1
@@ -1597,6 +1634,11 @@ technologies = {
 
 		category_recon = {
 			recon = 0.5
+		}
+		
+		militia = {
+			soft_attack = 0.05
+			defense = 0.05
 		}
 		
 		category_light_infantry = {
@@ -1630,6 +1672,11 @@ technologies = {
 		category_light_infantry = {
 			breakthrough = 0.10
 		}
+		
+		militia = {
+			breakthrough = 0.10
+		}
+		
 		engineer = {
 			entrenchment = 0.5
 		}
@@ -1655,6 +1702,11 @@ technologies = {
 		category_light_infantry = {
 			breakthrough = 0.10
 		}
+		
+		militia = {
+			breakthrough = 0.10
+		}
+		
 		engineer = {
 			entrenchment = 0.5
 		}
