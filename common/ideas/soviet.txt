@@ -1411,23 +1411,12 @@ ideas = {
 			visible = {
 				always = yes
 			}
-			allowed = {
-				OR = {
-					original_tag = SOV
-					original_tag = MON
-				}
-			}
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 
 			available = {
-				if = {
-					limit = {
-							tag = MAN
-					}
-					has_completed_focus = CHI_hire_soviet_designer
-					NOT = {
-						has_war_with = SOV
-					}
+				OR = {
+				original_tag = SOV 
+				original_tag = MON
 				}
 			}
 			cost = 75
@@ -1447,8 +1436,11 @@ ideas = {
 		}
 		
 		astrov_design_bureau = {
-			allowed = {
-				original_tag = SOV original_tag = MON
+			available = {
+				OR = {
+				original_tag = SOV 
+				original_tag = MON
+				}
 			}
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 
@@ -1469,8 +1461,11 @@ ideas = {
 		}
 		
 		okmo = {
-			allowed = {
-				original_tag = SOV original_tag = MON
+			available = {
+				OR = {
+				original_tag = SOV 
+				original_tag = MON
+				}
 			}
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			
