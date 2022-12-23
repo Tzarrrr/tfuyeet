@@ -651,7 +651,6 @@ focus_tree = {
 			OR = {
 				has_war_with = GER
 				ENG = { surrender_progress > 0.15 }
-				USA = { surrender_progress > 0.15 }
 				date>1941.10.1
 			}
 		}

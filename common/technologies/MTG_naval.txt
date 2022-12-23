@@ -1081,16 +1081,16 @@ early_ship_hull_carrier = {
 		}
 
 		destroyer = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1		
 		}
 		submarine = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1				
 		}
 		light_cruiser = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		heavy_cruiser = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		
 		
