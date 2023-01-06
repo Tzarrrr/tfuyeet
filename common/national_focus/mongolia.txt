@@ -43,7 +43,7 @@ focus_tree = {
 				remove_idea = MON_collectivisation_1
 				add_idea = MON_collectivisation_2			
 			}
-			add_political_power = 150
+			add_political_power = 200
 			767 = {
 				add_extra_state_shared_building_slots = 8
 			}
@@ -534,10 +534,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -583,10 +583,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -648,14 +648,14 @@ focus_tree = {
 		icon = GFX_focus_SOV_organization_centralization_discipline
 		x = 13
 		y = 2
-		cost = 5
+		cost = 2
 		prerequisite = { focus = MON_collectivisation }
 		ai_will_do = {
 			factor = 8
 		}
 
 		completion_reward = {
-			army_experience = 100
+			army_experience = 150
 		}
 	}
 
