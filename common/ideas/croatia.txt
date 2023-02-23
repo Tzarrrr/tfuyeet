@@ -328,7 +328,6 @@ ideas = {
 		CRO_hidden_materials = {
 			picture = generic_production_bonus
 			allowed = {
-				original_tag = CRO
 				always = yes
 			}
 

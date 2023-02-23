@@ -1269,7 +1269,7 @@ technologies = {
 		}
 
 		
-		folder = {_plan:
+		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 10 }
 		}
@@ -2576,9 +2576,7 @@ technologies = {
 			
 		}
 
-		available = {
-		tag = SOV
-		}
+
 		
 
 		# supply_consumption_factor = -0.1

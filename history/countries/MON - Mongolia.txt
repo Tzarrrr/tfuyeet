@@ -4,7 +4,6 @@ oob = "MON_1936"
 
 # Starting tech
 set_technology = {
-	basic_train = 1
 	new_tank_guns = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
