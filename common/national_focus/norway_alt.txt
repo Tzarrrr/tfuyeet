@@ -589,7 +589,6 @@ focus_tree = {
 					       uses = 5
 					       category = mountaineers_tech
 	          		       category = marine_tech
-						   category = jaegar_tech
 			               category = para_tech
 					}
 					ENG = {
@@ -619,7 +618,6 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 			category = mountaineers_tech
-			category = jaegar_tech
 			category = marine_tech
 			category = para_tech
 			}

@@ -105,7 +105,6 @@
 			focus = CRO_the_national_revolution
 		}
 		mutually_exclusive = { focus = CRO_venerate_the_craftsman }
-		mutually_exclusive = { focus = CRO_prosecute_the_losers }
 		relative_position_id = CRO_the_national_revolution
 		
 		cost = 5

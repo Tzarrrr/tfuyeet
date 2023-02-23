@@ -5887,9 +5887,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+	
 				}
 			}
 	
@@ -6022,9 +6020,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -6060,9 +6055,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -6099,9 +6091,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 				}
 			}
 	
@@ -6207,9 +6196,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -6246,9 +6232,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -6320,9 +6303,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 				}
 			}
 	
@@ -6451,9 +6431,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -6488,9 +6465,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -6526,9 +6500,6 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
 				}
 			}
 	
@@ -6631,9 +6602,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -6669,9 +6638,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+			
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -6743,9 +6710,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+
 				}
 			}
 	
@@ -6874,9 +6839,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -6908,9 +6871,7 @@ ideas = {
 				traits = { black_sea_naval_manufacturer }
 				
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -6946,9 +6907,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 				}
 			}
 	
@@ -7051,9 +7010,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -7089,9 +7046,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -7169,9 +7124,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 				}
 			}
 	
@@ -7311,9 +7264,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+					
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -7351,9 +7302,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+				
 					submarine = {
 						build_cost_ic = -0.1
 					}
@@ -7391,9 +7340,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+				
 				}
 			}
 	
@@ -7502,9 +7449,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+				
 					destroyer = {
 						build_cost_ic = -0.1
 					}
@@ -7542,9 +7487,7 @@ ideas = {
 				}
 	
 				equipment_bonus = {
-					coastal_defense_ships = {
-						build_cost_ic = -0.1
-					}
+				
 					submarine = {
 						build_cost_ic = -0.1
 					}

@@ -3375,46 +3375,6 @@ SOV_upgrade_appropriate_tank_designer_1_effect = {
 	}
 
 	#ASTROV
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau
-		}
-		set_country_flag = SOV_merge_tank_astrov_1_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau
-			add_idea = SOV_astrov_design_bureau_1
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_2
-		}
-		set_country_flag = SOV_merge_tank_astrov_1_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_2
-			add_idea = SOV_astrov_design_bureau_1_2
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_3
-		}
-		set_country_flag = SOV_merge_tank_astrov_1_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_3
-			add_idea = SOV_astrov_design_bureau_1_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_2_3
-		}
-		set_country_flag = SOV_merge_tank_astrov_1_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_2_3
-			add_idea = SOV_astrov_design_bureau_final
-		}
-	}
 
 	#OKMO
 	else_if = {
@@ -3640,46 +3600,6 @@ SOV_upgrade_appropriate_tank_designer_2_effect = {
 	}
 
 	#ASTROV
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau
-		}
-		set_country_flag = SOV_merge_tank_astrov_2_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau
-			add_idea = SOV_astrov_design_bureau_2
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_1
-		}
-		set_country_flag = SOV_merge_tank_astrov_2_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_1
-			add_idea = SOV_astrov_design_bureau_1_2
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_3
-		}
-		set_country_flag = SOV_merge_tank_astrov_2_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_3
-			add_idea = SOV_astrov_design_bureau_2_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_1_3
-		}
-		set_country_flag = SOV_merge_tank_astrov_2_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_1_3
-			add_idea = SOV_astrov_design_bureau_final
-		}
-	}
 
 	#OKMO
 	else_if = {
@@ -4253,46 +4173,6 @@ SOV_upgrade_appropriate_tank_designer_3_effect = {
 	}
 
 	#ASTROV
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau
-		}
-		set_country_flag = SOV_merge_tank_astrov_3_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau
-			add_idea = SOV_astrov_design_bureau_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_1
-		}
-		set_country_flag = SOV_merge_tank_astrov_3_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_1
-			add_idea = SOV_astrov_design_bureau_1_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_2
-		}
-		set_country_flag = SOV_merge_tank_astrov_3_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_2
-			add_idea = SOV_astrov_design_bureau_2_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = SOV_astrov_design_bureau_1_2
-		}
-		set_country_flag = SOV_merge_tank_astrov_3_flag
-		swap_ideas = {
-			remove_idea = SOV_astrov_design_bureau_1_2
-			add_idea = SOV_astrov_design_bureau_final
-		}
-	}
 
 	#OKMO
 	else_if = {

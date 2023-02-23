@@ -209,10 +209,6 @@ equipments = {
 		visual_level = 0
 		
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 
 		#Misc Abilities
@@ -340,10 +336,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_art_upgrade
 		}
 
 		#Misc Abilities
@@ -437,10 +429,6 @@ equipments = {
 		priority = 40
 		visual_level = 0
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_at_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 10
@@ -537,10 +525,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 10
@@ -634,10 +618,7 @@ equipments = {
 		visual_level = 0
 		
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
+			
 		}
 		#Misc Abilities
 		maximum_speed = 8
@@ -741,10 +722,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_art_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 8
@@ -841,10 +818,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_at_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 8
@@ -945,10 +918,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 8
@@ -1078,10 +1047,6 @@ equipments = {
 		fuel_consumption = 4.4
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 	}
 
@@ -1160,10 +1125,6 @@ equipments = {
 		maximum_speed = 5
 		reliability = 0.8
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_art_upgrade
 		}
 		#Defensive Abilities
 		defense = 4
@@ -1254,10 +1215,6 @@ equipments = {
 		priority = 120
 		visual_level = 0
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_at_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 5
@@ -1357,10 +1314,6 @@ equipments = {
 		priority = 110
 		visual_level = 0
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 5
@@ -1481,10 +1434,6 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 14
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 		build_cost_ic = 28
 		resources = {
@@ -1504,10 +1453,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_art_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 10
@@ -1543,10 +1488,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_at_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 10
@@ -1583,10 +1524,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 10
@@ -1641,10 +1578,6 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 15
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 		build_cost_ic = 100
 		resources = {
@@ -1664,10 +1597,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_art_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 4
@@ -1702,10 +1631,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_at_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 4
@@ -1740,10 +1665,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 4
@@ -1778,10 +1699,6 @@ equipments = {
 		visual_level = 0
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 
 		#Misc Abilities

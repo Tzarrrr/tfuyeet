@@ -20,11 +20,6 @@ FRA = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255  }
 }
-
-1 84 160 
-74 147 255
-
-
 FRF = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255  }

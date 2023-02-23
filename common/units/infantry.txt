@@ -902,7 +902,7 @@ sub_units = {
 		
 		#Misc Abilities
 		training_time =  #reg infantry 75
-		suppression = 1.5
+		suppression = 1
 		weight = 0.5
 		
 		supply_consumption = 0.06

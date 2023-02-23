@@ -99,7 +99,6 @@ focus_tree = {
 		x = 0
 		y = 2
 		prerequisite = { focus = USA_wpa }
-		relative_position_id = USA_suspend_the_presecution
 		cost = 10
 
 		ai_will_do = {
