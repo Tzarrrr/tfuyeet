@@ -1578,8 +1578,8 @@
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = 0.1
-			build_cost_ic = 0.25
+			reliability = 0.075
+			build_cost_ic = -0.025
 		}
 		
 		multiply_stats = {
@@ -1639,12 +1639,12 @@
 			forbid_equipment_type = artillery
 			parent = tank_medium_cannon
 			add_stats = {
-				soft_attack = 33
+				soft_attack = 35
 				hard_attack = 25
 				ap_attack = 90
 				build_cost_ic = 5.5
 				maximum_speed = -0.3
-				reliability = -0.1
+				reliability = -0.05
 				breakthrough = 4
 			}
 			

@@ -1953,8 +1953,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 0.4
-		start_year = 1940
+		research_cost = 0.35
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -3 y = 6 }

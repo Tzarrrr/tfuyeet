@@ -150,11 +150,17 @@ focus_tree = {
 	focus = {
 		id = ENG_tank_focus
 		prerequisite = { focus = limited_rearmament_focus }
+			available = {
+		OR = { 
+			date > 1938.2.1
+			GER = { has_completed_focus = GER_demand_sudetenland }
+		}
+ 	}
 		icon = GFX_goal_generic_army_tanks
 		x = 0
 		y = 1
 		relative_position_id = limited_rearmament_focus
-		cost = 7
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -164,24 +170,24 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1.0
-				uses = 1
-				category = motorized_equipment
+				bonus = 3.0
+				ahead_reduction = 1
+				uses = 2
+				technology = medium_guns2
+				technology = heavy_guns2
 			}
 			add_tech_bonus = {
 				name = medium1_bonus
-				bonus = 0.5
+				bonus = 3.0
 				technology = basic_medium_tank_chassis
 			}		
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1.0
-				uses = 2				
+				bonus = 3.0
+				ahead_reduction = 2
+				uses = 1				
 				technology = advanced_light_tank_chassis
-				technology = improved_medium_tank_chassis
-				technology = advanced_medium_tank_chassis				
-				technology = improved_heavy_tank_chassis
-				technology = advanced_heavy_tank_chassis
+				technology = improved_medium_tank_chassis				
 			}
 		}
 	}
@@ -618,12 +624,12 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 50
 			136 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = dockyard level = 2 instant_build = yes }
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = { type = dockyard level = 4 instant_build = yes }
 			}
 			123 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = dockyard level = 2 instant_build = yes }
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = { type = dockyard level = 4 instant_build = yes }
 			}
 		}
 	}
@@ -1627,13 +1633,13 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = { is_in_home_area=yes free_building_slots = { building = industrial_complex size > 1 include_locked = yes } }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = { type = industrial_complex level = 4 instant_build = yes }
 			}
 			random_owned_controlled_state = {
 				limit = { is_in_home_area=yes free_building_slots = { building = industrial_complex size > 1 include_locked = yes } }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = { type = industrial_complex level = 4 instant_build = yes }
 			}
 			random_owned_controlled_state = {
 				limit = { is_in_home_area=yes free_building_slots = { building = arms_factory size > 1 include_locked = yes } }

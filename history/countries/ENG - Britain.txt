@@ -202,12 +202,12 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = fighter_equipment_0
-	amount = 500
+	amount = 600
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = CAS_equipment_1
-	amount = 300
+	amount = 400
 	producer = ENG
 }
 add_equipment_to_stockpile = {
@@ -426,7 +426,7 @@ add_to_faction = NOR
 # 	picture = "Portrait_Britain_Richard_OConnor.dds"
 # 	traits = { panzer_leader desert_fox trickster infantry_officer brilliant_strategist expert_improviser panzer_expert camouflage_expert }
 # 	skill = 5
-# 	attack_skill = 9
+# 	attack_skill = 8
 # 	defense_skill = 3
 # 	planning_skill = 1
 # 	logistics_skill = 1
