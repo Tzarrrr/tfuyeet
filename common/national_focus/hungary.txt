@@ -367,7 +367,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = HUN_GREATER_tt
-			add_stability = 0.1
+			add_stability = 0.15
 			hidden_effect = {
 				news_event = { id = news.299 }
 			}
