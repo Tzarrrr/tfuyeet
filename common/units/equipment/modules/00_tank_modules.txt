@@ -1014,7 +1014,7 @@
 		allow_equipment_type = artillery
 		forbid_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 60
+			soft_attack = 45
 			hard_attack = 5
 			ap_attack = 12
 			build_cost_ic = 4.5
