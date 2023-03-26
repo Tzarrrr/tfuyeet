@@ -7721,7 +7721,7 @@ ideas = {
 	
 				equipment_bonus = {
 					CAS_equipment = {
-						build_cost_ic = -0.05
+						build_cost_ic = -0.075
 					}
 				}
 			}

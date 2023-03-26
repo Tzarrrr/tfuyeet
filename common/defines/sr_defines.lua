@@ -140,7 +140,7 @@ NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER 	= 0.03	--air global dama
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER =	0.03 	--global damage modifier 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.28 --(0.25)
 
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT =	-0.4 	--effect on defense due to enemy air superiority
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT =	-0.3 	--effect on defense due to enemy air superiority
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE =	0.30	--more AA attack will approach this amount of help (diminishing returns)
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 400 	--how quickly defense approaches the max impact diminishing returns curve
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT =	-0.125	--effect on speed due to enemy air superiority
@@ -165,7 +165,7 @@ NDefines.NAir.FUEL_COST_MULT = 0.21 -- (0.35) fuel multiplier for all air missio
 
 NDefines.NMilitary.INFRA_ORG_IMPACT = 0.25				-- scale factor of infra on org regain.
 NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.0375                    -- basic speed control
-NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.020	-- speed penalty per infrastucture below maximum.
+NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.005	-- speed penalty per infrastucture below maximum.
 -- NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.15 -- WAS 0.20, how much org is lost every hour while moving an army. 
 -- NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.35
 

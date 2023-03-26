@@ -745,8 +745,8 @@ sub_units = {
 			movement = -0.35
 		}
 		mountain = {
-			attack = -0.1
-			defence = -0.1 
+			attack = -0.4
+			defence = -0.2
 			movement = -0.2 
 		}
 		hills = {
@@ -763,7 +763,7 @@ sub_units = {
 			movement = -0.3
 		}
 		urban = {
-			attack = -0.1
+			attack = -0.2
 		}
 		river = {
 			attack = -0.1

@@ -55,6 +55,12 @@ operations = {
 					type = annex_everything
 				}
 			}
+			GER = {
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
 		}
 	}
 	
