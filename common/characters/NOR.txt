@@ -31,7 +31,7 @@ characters={
 		}
 	}
 	NOR_kristian_laake={
-		name="Kristian Laake"
+		name="Kristian Bubway"
 		advisor={
 			slot = army_chief
 			idea_token = NOR_kristian_laake
@@ -52,9 +52,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ adaptable organizer panzer_leader panzer_expert expert_improviser }
+			traits={ adaptable war_hero infantry_officer old_guard harsh_leader infantry_leader infantry_expert hill_fighter trait_engineer fortress_buster }
 			skill=5
-			attack_skill=5
+			attack_skill=6
 			defense_skill=4
 			planning_skill=4
 			logistics_skill=6

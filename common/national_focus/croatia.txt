@@ -104,7 +104,7 @@
 		prerequisite = { 
 			focus = CRO_the_national_revolution
 		}
-		mutually_exclusive = { focus = CRO_venerate_the_craftsman }
+		mutually_exclusive = { focus = CRO_venerate_the_craftsman focus = CRO_prosecute_the_losers }
 		relative_position_id = CRO_the_national_revolution
 		
 		cost = 5
@@ -190,7 +190,7 @@
 		prerequisite = { 
 			focus = CRO_the_national_revolution
 		}
-		mutually_exclusive = { focus = CRO_prosecute_the_losers }
+		mutually_exclusive = { focus = CRO_prosecute_the_losers focus = CRO_long_term_economic_planning }
 		relative_position_id = CRO_the_national_revolution
 		
 		cost = 5
@@ -263,7 +263,7 @@
 		prerequisite = { 
 			focus = CRO_the_national_revolution
 		}
-		mutually_exclusive = { focus = CRO_venerate_the_craftsman }
+		mutually_exclusive = { focus = CRO_venerate_the_craftsman focus = CRO_long_term_economic_planning }
 		relative_position_id = CRO_the_national_revolution
 		
 		cost = 5
