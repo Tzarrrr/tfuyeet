@@ -1225,7 +1225,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -1281,7 +1281,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1337,7 +1337,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -1379,7 +1379,7 @@ technologies = {
 
 	armor_tech_4 = {
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
@@ -1435,7 +1435,7 @@ technologies = {
 		    armor_skirts
 		}
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -1875,7 +1875,7 @@ technologies = {
 			tank_fully_sloped_armor
 		}
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
@@ -2044,7 +2044,7 @@ technologies = {
 		}
 	
 		show_effect_as_desc = yes
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -2106,7 +2106,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
@@ -2153,7 +2153,7 @@ technologies = {
 		wide_tracks
 		}
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
@@ -2184,7 +2184,7 @@ technologies = {
 			custom_effect_tooltip = engine_tech_3_tt
 		}
 		show_effect_as_desc = yes
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
@@ -2229,7 +2229,7 @@ technologies = {
 		tank_bell_crank_suspension	
 		}	
 
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
