@@ -678,7 +678,7 @@ focus_tree = {
 		#prerequisite = {  focus = SPA_fuse_the_parties }
 		
 		icon = GFX_goal_generic_consumer_goods
-		x = 19
+		x = 21
 		y = 0
 		#relative_position_id = SPA_fuse_the_parties
 		cost = 5
@@ -745,7 +745,7 @@ focus_tree = {
 		prerequisite = { focus = SPA_fascist_economic_aid }
 		
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = SPA_fascist_economic_aid
 		cost = 10
@@ -830,7 +830,7 @@ focus_tree = {
 		prerequisite = { focus = SPA_fascist_economic_aid focus = SPA_spanish_austerity }
 		
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = SPA_fascist_economic_aid
 		cost = 10
@@ -873,7 +873,7 @@ focus_tree = {
 		prerequisite = { focus = SPA_improve_cross_country_railways }
 		
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = SPA_facilitate_pyrenees_freight_transports
 		cost = 10
@@ -902,12 +902,12 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		prerequisite = { focus = SPA_national_recovery }
+		prerequisite = { focus = SPA_autarky }
 		
 		icon = GFX_goal_generic_construct_military
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = SPA_national_recovery
+		relative_position_id = SPA_autarky
 		cost = 10
 
 		available_if_capitulated = yes
@@ -929,7 +929,7 @@ focus_tree = {
 		
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = SPA_the_duty_to_work
 		cost = 10
 
@@ -1022,7 +1022,7 @@ focus_tree = {
 		}
 		
 		icon = GFX_goal_generic_construct_civilian
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = SPA_autarky
 		cost = 10
