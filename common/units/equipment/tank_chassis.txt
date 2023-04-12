@@ -1022,7 +1022,7 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 		maximum_speed = 3
-		build_cost_ic = 3 #Meme
+		build_cost_ic = 10 #Meme
 		reliability = 0.5 #Meme
 		armor_value = 30
 		hardness = 0.875
