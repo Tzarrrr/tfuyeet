@@ -262,6 +262,7 @@ on_actions = {
 							# transfer_state = 738 #Aru
 							# transfer_state = 669 #West Papua
 							# transfer_state = 795 #Borneo Jungle
+							add_research_slot = 1 #Rol ask for this
 						}
 						HOL = {
 							transfer_state = 333 #British Malaya, no pre-positioning
