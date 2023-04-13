@@ -2262,7 +2262,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = ITA_pact_of_steel
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 80
@@ -2277,11 +2277,16 @@ focus_tree = {
 				}
 		}
 
+
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
+		ITA = {
+				transfer_state = 177 
+			}
 		swap_ideas = { 
   			remove_idea = vittoria_mutilata 
   			add_idea = vittoria_mutilata2	 
@@ -2291,11 +2296,10 @@ focus_tree = {
 			add_state_core = 116
 			add_state_core = 1
 			add_state_core = 735
-			}
 		}
 	
 	
-	
+	}
 	focus = {
 		id = ITA_german_millitary_cooperation
 		icon = GFX_focus_chi_mission_to_germany

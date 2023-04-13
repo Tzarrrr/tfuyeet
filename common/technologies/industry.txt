@@ -127,7 +127,7 @@ technologies = {
 	
 	assembly_line_production = {
 	
-		production_factory_max_efficiency_factor = 0.08
+		production_factory_max_efficiency_factor = 0.1
 		
 		#path = {
 		#	leads_to_tech = improved_machine_tools 
@@ -169,7 +169,7 @@ technologies = {
 	
 	flexible_line = {
 
-		production_factory_max_efficiency_factor = 0.06
+		production_factory_max_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.5
@@ -200,7 +200,7 @@ technologies = {
 	
 	streamlined_line = {
 
-		production_factory_max_efficiency_factor = 0.06
+		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.1
 			
 		research_cost = 2.5
@@ -453,7 +453,7 @@ technologies = {
 	
 	concentrated_industry4 = {
 
-		industrial_capacity_factory = 0.13
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.20
 		
@@ -491,7 +491,7 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.10
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.20
 		
@@ -1420,7 +1420,7 @@ technologies = {
 	
 	construction4 = {
 
-		production_speed_buildings_factor = 0.08
+		production_speed_buildings_factor = 0.1
 		industry_repair_factor = 0.10
 		
 		path = {
@@ -1508,7 +1508,7 @@ technologies = {
 	
 	construction5 = {
 
-		production_speed_buildings_factor = 0.06
+		production_speed_buildings_factor = 0.1
 		industry_repair_factor = 0.10
 		
 		path = {

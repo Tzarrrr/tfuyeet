@@ -896,12 +896,12 @@ sub_units = {
 		max_organisation = 40 
 		default_morale = 0.3
 		manpower = 1000
-		soft_attack = -0.65
-		breakthrough = -0.2
-		defense = -0.25
+		soft_attack = -0.40
+		breakthrough = -0.15
+		defense = -0.15
 		
 		#Misc Abilities
-		training_time =  #reg infantry 75
+		training_time = 30 #reg infantry 75
 		suppression = 1
 		weight = 0.5
 		

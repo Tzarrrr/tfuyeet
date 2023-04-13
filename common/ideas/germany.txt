@@ -565,6 +565,8 @@ ideas = {
 				terrain_penalty_reduction = 0.10
 				cas_damage_reduction = 0.1
 				dig_in_speed_factor = 0.30
+				production_speed_supply_node_factor = 0.25
+				production_speed_rail_way_factor = 0.25
 			}
 			
 			equipment_bonus = {

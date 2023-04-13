@@ -1206,6 +1206,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = FRA_motorized_focus
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 0.5
