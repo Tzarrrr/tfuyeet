@@ -772,7 +772,7 @@ SPR_no_navy2 = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = 0.10
+				production_speed_buildings_factor = 0.15
 			}
 		}
 
