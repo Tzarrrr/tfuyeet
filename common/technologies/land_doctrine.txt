@@ -1060,10 +1060,10 @@ technologies = {
 		# 	soft_attack = 0.15
 		# }
 		category_all_infantry = {
-			max_organisation = 5
-			default_morale = 0.05
-			soft_attack = 0.1
-			hard_attack = 0.1
+			max_organisation = 10
+			default_morale = 0.1
+			soft_attack = 0.2
+			hard_attack = 0.2
 		}
 		
 		path = {
@@ -1106,12 +1106,13 @@ technologies = {
 		# 	max_organisation = 10
 		# 	soft_attack = 0.15
 		# }
-		category_all_infantry = {
+
+		category_support_battalions = {
 			max_organisation = 5
-			default_morale = 0.05
-			soft_attack = 0.1
-			hard_attack = 0.1
-		}
+			soft_attack = 0.015
+			breakthrough = 0.15
+			default_morale = 0.1
+			}
 		
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -2394,6 +2395,11 @@ technologies = {
 
 		category_all_infantry = {
 			default_morale = 0.05
+		}
+		
+		category_special_forces = {
+			soft_attack = 0.1
+			breakthrough = 0.2
 		}
 
 		amphibious_invasion_defence = 0.15
