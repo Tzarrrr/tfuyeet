@@ -290,6 +290,44 @@ ideas = {
 			}
 		}
 	
+		Sov_Mass_Production = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			
+			equipment_bonus = {
+					#AIRCRAFT
+				artillery_equipment = {
+					instant = yes
+					build_cost_ic = -0.075 instant = yes
+				}
+				anti_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.075 instant = yes
+				}
+				anti_air_equipment = {
+					instant = yes
+					build_cost_ic = -0.075 instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+	
+		
 		SOV_purge_now_plz = {
 		
 				

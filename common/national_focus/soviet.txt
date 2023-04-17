@@ -1683,6 +1683,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = SOV_Mass_Production
 			add_tech_bonus = {
 				bonus = 1.00
 				uses = 1
@@ -2264,31 +2265,31 @@ focus = {
 				219 = { 
 					add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 3
 					instant_build = yes }
 				add_state_modifier = { modifier = { local_building_slots_factor = 0.35  } } }
 				195 = { 
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 3
 					instant_build = yes }
 					add_state_modifier = { modifier = { local_building_slots_factor = 0.35  } } }
 				217 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 3
 						instant_build = yes }
 					add_state_modifier = { modifier = { local_building_slots_factor = 0.35  } } }
 				218 = { 
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 3
 						instant_build = yes }
 					add_state_modifier = { modifier = { local_building_slots_factor = 0.35  } } }
-				242 = { 
+				398 = { 
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 3
 						instant_build = yes }
 					add_state_modifier = { modifier = { local_building_slots_factor = 0.35  } } }
 				
@@ -3963,7 +3964,7 @@ focus = {
 				completion_reward = {
 					add_tech_bonus = {
 						name = SOV_cas_effort
-						bonus = 1.0
+						bonus = 2.0
 						uses = 1
 						category = tactical_bomber
 						category = cas_bomber

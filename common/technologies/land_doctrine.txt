@@ -2487,7 +2487,9 @@ technologies = {
 		category_support_battalions = {
 			max_organisation = 5
 			soft_attack = 0.075
-		}
+			breakthrough = 0.1
+			defense = 0.1
+			}
 
 		doctrine = yes	
 		research_cost = 4.71
@@ -2916,7 +2918,9 @@ technologies = {
 			max_organisation = 3
 			default_morale = 0.05
 		}	
-
+		
+		
+			
 		mechanized = {
 			max_organisation = 5
 			default_morale = 0.05

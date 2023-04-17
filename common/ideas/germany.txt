@@ -28,6 +28,46 @@ ideas = {
 			trade_cost_for_target_factor = -0.8
 		}
 	}
+	
+	GER_redirecting_naval_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = -0.20
+				production_speed_dockyard_factor = -0.20	
+		}
+	}
+		
+	GER_Invest_in_naval_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = -0.20
+				production_speed_dockyard_factor = -0.20	
+		}	
+	}
 
 	german_wartime_economy = {
 		allowed = {
@@ -78,6 +118,7 @@ ideas = {
 			conscription = 0.01
 		}
 	}
+	
 	
 	vichy_trade = { 
 		
@@ -584,7 +625,7 @@ ideas = {
 
 		}
 		
-				GER_barbarossa_og = {
+		GER_barbarossa_og = {
 			allowed = {
 				always = no
 			}

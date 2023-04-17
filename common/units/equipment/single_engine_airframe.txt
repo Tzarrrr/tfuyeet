@@ -873,8 +873,8 @@ equipments = {
 		can_convert_from = { 
 			nav_bomber_equipment_1
 		}
-		air_range = 680
-		maximum_speed =	31
+		air_range = 400
+		maximum_speed =	60
 		air_agility = 15
 		air_attack = 6
 		air_defence = 6
@@ -895,8 +895,8 @@ equipments = {
 			nav_bomber_equipment_2
 		}
 		
-		air_range = 750
-		maximum_speed =	39
+		air_range = 450
+		maximum_speed =	72
 		air_agility = 35
 		air_attack = 10
 		air_defence = 15
@@ -923,8 +923,8 @@ equipments = {
 
 		}
 		
-		air_range = 880
-		maximum_speed =	46
+		air_range = 500
+		maximum_speed =	80
 		air_agility = 40
 		air_attack = 14
 		air_defence = 17

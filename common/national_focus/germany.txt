@@ -1898,13 +1898,98 @@ focus_tree = {
 	# 	}
 	# }
 
+
+	focus = {
+		id = GER_accept_british_naval_dominance
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		mutually_exclusive = { focus = GER_naval_rearmament }
+		prerequisite = { focus = GER_rhineland }
+		relative_position_id = GER_rhineland
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+		cancel_if_invalid = yes
+		x = 17
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = GER_redirecting_naval_production
+		}
+	}
+	
+	focus = {
+		id = GER_challenge_british_naval_dominance
+		icon = GFX_focus_generic_navy_battleship2
+		mutually_exclusive = { focus = GER_naval_rearmament focus = GER_accept_british_naval_dominance} 
+		prerequisite = { focus = GER_rhineland }
+		relative_position_id = GER_rhineland
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+		cancel_if_invalid = yes
+		x = 13
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = USA_ships_for_victory_idea_v2
+		}
+	}
+	
+	focus = {
+		id = GER_naval_effort3
+		icon = GFX_focus_GER_plan_z
+		prerequisite = { focus = GER_challenge_british_naval_dominance }
+		x = 12
+		y = 3
+		relative_position_id = GER_rhineland
+		cost = 1
+
+		available_if_capitulated = yes
+		completion_reward = {
+		navy_experience = 500
+	every_state = { limit = { is_coastal = yes is_core_of = GER   }		
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			  }		
+			set_technology = { 
+			smoke_generator = 1
+			fire_control_methods_2 = 1
+			damage_control_2 = 1
+			improved_depth_charges = 1 
+			improved_sonar = 1 
+			improved_airplane_launcher = 1
+			basic_cruiser_armor_scheme = 1
+			magnetic_detonator = 1
+			basic_light_shell = 1
+			basic_medium_shell = 1
+			basic_heavy_shell = 1 
+			damage_control_1 = 1 
+			fire_control_methods_1 = 1
+			early_ship_hull_carrier = 1
+			basic_heavy_armor_scheme = 1 
+			popup = no
+			}
+			}
+
+		}
 	
 	focus = {
 		id = GER_naval_rearmament
 		icon = GFX_goal_generic_build_navy
 		prerequisite = { focus = GER_rhineland }
+		mutually_exclusive = { focus = GER_accept_british_naval_dominance}
 		relative_position_id = GER_rhineland
-		x = 13
+		x = 15
 		y = 2
 		cost = 1
 		ai_will_do = {
@@ -1980,7 +2065,7 @@ focus_tree = {
 		id = GER_naval_effort
 		text = naval_effort
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = GER_naval_rearmament }
+		prerequisite = { focus = GER_naval_rearmament focus = GER_challenge_british_naval_dominance}
 		x = 0
 		y = 1
 		relative_position_id = GER_naval_rearmament
@@ -2204,12 +2289,54 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = GER_Carrier_Effort
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = { focus = GER_naval_effort }
+		x = 1
+		y = 2
+		relative_position_id = GER_naval_effort
+		cost = 5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1.0
+				uses = 2
+				category = cv_tech
+			}
+		random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_plan_z_dockyards
+			}
+		}
+	}
 
 	focus = {
 		id = GER_u_boat_effort
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = GER_naval_effort }
-		x = 2
+		x = 3
 		y = 2
 		relative_position_id = GER_naval_effort
 		cost = 1

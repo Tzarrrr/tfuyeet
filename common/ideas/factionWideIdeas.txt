@@ -188,6 +188,23 @@ ideas = {
 				industrial_capacity_dockyard = 0.20
 			}
 		}
+		
+		USA_ships_for_victory_idea_v2 = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				
+			}
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.35
+				production_speed_dockyard_factor = 0.35
+				political_power_cost = 0.05
+			}
+		}
 
 		GER_triumph_britain_idea = {
 			
