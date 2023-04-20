@@ -83,6 +83,9 @@ SOV_Defend_Leningrad:0 "Declare Leningrad a Hero City"
 SOV_Defend_Sevastapol:0 "Declare Sevastapol a Hero City"
 SOV_Defend_Liptesk:0 "Declare Liptesk a Hero City"
 
+SOV_annex_Mongolia:0 "Annex Mongolia"
+
+
 GER_barbarossa_mission_moscow:0 "Capture Moscow"
 GER_barbarossa_mission_lenin:0 "Capture Leningrad"
 GER_barbarossa_mission_kiev:0 "Capture Kiev"

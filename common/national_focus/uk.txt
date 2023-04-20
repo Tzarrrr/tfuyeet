@@ -42,6 +42,27 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = ENG_Gib_Fell
+		prerequisite = { focus = limited_rearmament_focus }	
+		icon = GFX_focus_attack_italy
+		x = 0
+		y = 2
+		cost = 1
+		available = {
+			118 = { 
+						NOT = { is_controlled_by = ENG }
+					}
+		}
+		ai_will_do = {
+			factor = 9
+		}
+		
+		completion_reward = {
+			add_ideas = tot_economic_mobilisation
+		}
+	}
 
 	# focus = {
 	# 	id = ENG_sudanese_rubber

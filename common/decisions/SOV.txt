@@ -28,6 +28,58 @@ SOV_mrp = {
  			factor = 1
  		}
  	}
+	
+	SOV_annex_Mongolia = {
+			icon = generic_operation
+
+			allowed = {
+				original_tag = SOV
+			}
+				
+			available = {
+				OR = {
+					date > 1940.7.1
+					has_game_rule = {
+						rule = mini_sr
+						option = ENABLE_MINI_SR
+					}
+				}
+				SOV = { is_ai = no }
+				MON = { is_ai = yes }
+				# MON = { surrender_progress < 0.01 }
+			}
+	
+
+		fire_only_once = yes
+
+		cost = 0
+			
+		visible = {
+
+		}
+
+		complete_effect = {
+		if = { limit = { country_exists = MON  } 
+		MON = {
+			    every_unit_leader = {
+				    set_nationality = SOV
+			    }
+				transfer_navy = {
+					target = SOV
+				}
+		    }
+		SOV = { 
+				annex_country = {
+					target = MON
+					transfer_troops = yes 
+				}	
+			}  
+			}
+		every_state = { 
+			limit = { is_core_of = MON }
+			set_compliance = 100 }
+	}
+	}
 
 	GDU_Soviet_Single_Deployment_decision = {
 		icon = GFX_decision_deploy

@@ -1473,8 +1473,9 @@ tank_refurbishment_plant = { #NSB
 		random = no
 		equipment_bonus = {
 				armor = {
-					hard_attack = 0.04
-					soft_attack = 0.04
+					hard_attack = 0.05
+					soft_attack = 0.05
+					defense = 0.05
 					build_cost_ic = -0.075
 				}
 			}

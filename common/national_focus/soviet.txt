@@ -1396,7 +1396,7 @@ focus = {
 	x = 2
 	y = 1
 	relative_position_id = SOV_defense_of_moscow
-	cost = 10
+	cost = 14
 	ai_will_do = {
 		factor = 10
 	}
@@ -1497,7 +1497,7 @@ focus = {
 	relative_position_id = SOV_defense_of_moscow
 	x = -2
 	y = 1
-	cost = 10
+	cost = 1
 	ai_will_do = {
 		factor = 1
 	}
@@ -4016,13 +4016,13 @@ focus = {
 				}
 
 				available = {
-					date>1942.11.15
-					date<1943.3.15
+					date>1941.11.15
+					date<1942.3.15
 				}
 		
 				completion_reward = {
 		
-					add_timed_idea= { idea=SOV_winter_offensive days=90 }
+					add_timed_idea= { idea=SOV_winter_offensive days=60 }
 		
 		
 				}

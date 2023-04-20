@@ -187,6 +187,8 @@ ideas = {
 			modifier = {
             	army_speed_factor = 0.1
 				army_morale_factor = 0.1
+				org_loss_when_moving = -0.3
+				out_of_supply_factor = -0.2
 			}
 		}
 
