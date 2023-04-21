@@ -35,36 +35,44 @@ sub_units = {
 		supply_consumption = 0.29
 
 		forest = {
-		    attack = -0.1
-			movement = -0.2
-		}
-		mountain = 	{
-		    attack = -0.3
-			defence = -0.15
-			movement = -0.6
-		}
-		jungle = {
-		    attack = -0.1
+		    attack = -0.2
 			defence = -0.05
 			movement = -0.2
 		}
-		marsh = {
-		    attack = -0.1 
-			movement = -0.1
-		}
-		urban = {
-			attack = -0.3
-			defence = -0.1
-		}
-		river = { 
-			attack = -0.2 
+		hills = {
+		    attack = -0.20
+			defence = -0.4 
 			movement = -0.2
 		}
+		mountain = 	{
+		    attack = -0.85
+			defence = -0.85
+			movement = -0.85
+		}
+		jungle = {
+		    attack = -0.3
+			defence = -0.35 
+			movement = -0.3
+		}
+		marsh = {
+		    attack = -0.1 
+			defence = -0.35 	
+			movement = -0.2
+		}
+		urban = {
+			attack = -0.30
+			defence = -0.55
+		}
+		river = { 
+			attack = -0.15
+			movement = -0.15	
+		}
 		amphibious = { 
-			attack = -0.4
+			attack = -0.8
 		}
 		deep_desert = {
 			attack = -0.1
+			defence = -0.15
 			movement = -0.1
 		}
 	}
@@ -111,13 +119,13 @@ sub_units = {
 		}
 		hills = {
 		    attack = -0.20
-			defence = -0.325 
+			defence = -0.4 
 			movement = -0.2
 		}
 		mountain = 	{
-		    attack = -0.75
+		    attack = -0.85
 			defence = -0.85
-			movement = -0.8
+			movement = -0.85
 		}
 		jungle = {
 		    attack = -0.3
@@ -126,19 +134,19 @@ sub_units = {
 		}
 		marsh = {
 		    attack = -0.1 
-			defence = -0.15 	
-			movement = -0.15
-		}
-		urban = {
-			attack = -0.3
-			defence = -0.35
-		}
-		river = { 
-			attack = -0.2 
+			defence = -0.35 	
 			movement = -0.2
 		}
+		urban = {
+			attack = -0.30
+			defence = -0.55
+		}
+		river = { 
+			attack = -0.15
+			movement = -0.15	
+		}
 		amphibious = { 
-			attack = -0.7
+			attack = -0.8
 		}
 		deep_desert = {
 			attack = -0.1
@@ -146,6 +154,7 @@ sub_units = {
 			movement = -0.1
 		}
 	}
+
 	
 	heavy_tank_destroyer_brigade = {
 		sprite = "heavy_armor"

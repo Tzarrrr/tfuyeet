@@ -22,7 +22,7 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			light_tank_artillery_chassis = 42
+			light_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		hard_attack = -0.75
@@ -36,35 +36,43 @@ sub_units = {
 
 		forest = {
 		    attack = -0.2
-			movement = -0.4
+			defence = -0.05
+			movement = -0.2
+		}
+		hills = {
+		    attack = -0.20
+			defence = -0.4 
+			movement = -0.2
 		}
 		mountain = 	{
-		    attack = -0.3
-			defence = -0.15
-			movement = -0.5
+		    attack = -0.85
+			defence = -0.85
+			movement = -0.85
 		}
 		jungle = {
 		    attack = -0.3
-			defence = -0.05 
-			movement = -0.4
+			defence = -0.35 
+			movement = -0.3
 		}
 		marsh = {
 		    attack = -0.1 
-			movement = -0.1
-		}
-		urban = {
-			attack = -0.4
-			defence = -0.1
-		}
-		river = { 
-			attack = -0.2 
+			defence = -0.35 	
 			movement = -0.2
 		}
+		urban = {
+			attack = -0.30
+			defence = -0.55
+		}
+		river = { 
+			attack = -0.15
+			movement = -0.15	
+		}
 		amphibious = { 
-			attack = -0.6
+			attack = -0.8
 		}
 		deep_desert = {
 			attack = -0.1
+			defence = -0.15
 			movement = -0.1
 		}
 	}
@@ -90,7 +98,7 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			medium_tank_artillery_chassis = 36
+			medium_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		hard_attack = -0.75
@@ -109,13 +117,13 @@ sub_units = {
 		}
 		hills = {
 		    attack = -0.20
-			defence = -0.325 
+			defence = -0.4 
 			movement = -0.2
 		}
 		mountain = 	{
-		    attack = -0.95
+		    attack = -0.85
 			defence = -0.85
-			movement = -0.8
+			movement = -0.85
 		}
 		jungle = {
 		    attack = -0.3
@@ -124,19 +132,19 @@ sub_units = {
 		}
 		marsh = {
 		    attack = -0.1 
-			defence = -0.15 	
-			movement = -0.15
-		}
-		urban = {
-			attack = -0.3
-			defence = -0.35
-		}
-		river = { 
-			attack = -0.2 
+			defence = -0.35 	
 			movement = -0.2
 		}
+		urban = {
+			attack = -0.30
+			defence = -0.55
+		}
+		river = { 
+			attack = -0.15
+			movement = -0.15	
+		}
 		amphibious = { 
-			attack = -0.7
+			attack = -0.8
 		}
 		deep_desert = {
 			attack = -0.1
@@ -168,10 +176,11 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			heavy_tank_artillery_chassis = 29
+			heavy_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		hard_attack = -0.75
+		breakthrough = -0.5
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 6
@@ -180,50 +189,48 @@ sub_units = {
 
 
 		forest = {
-		    attack = -0.40
-			defence = -0.10
-			movement = -0.40
+		    attack = -0.4
+			defence = -0.05
+			movement = -0.2
 		}
 		hills = {
-		    attack = -0.25
-			defence = -0.40 
+		    attack = -0.20
+			defence = -0.4 
 			movement = -0.2
 		}
 		mountain = 	{
-			attack = -0.8
-			defence = -0.85 
-			movement = -0.9
+		    attack = -0.85
+			defence = -0.85
+			movement = -0.85
 		}
 		jungle = {
-		    attack = -0.5
-			defence = -0.5 
-			movement = -0.5
+		    attack = -0.3
+			defence = -0.35 
+			movement = -0.3
 		}
 		marsh = {
-		    attack = -0.4
-			defence = -0.30
+		    attack = -0.1 
+			defence = -0.35 	
 			movement = -0.2
 		}
 		urban = {
-			attack = -0.2
-			defence = -0.25
+			attack = -0.30
+			defence = -0.55
 		}
 		river = { 
-			attack = -0.4 
-			movement = -0.4
+			attack = -0.15
+			movement = -0.15	
 		}
 		amphibious = { 
-			attack = -0.85
-		}
-		fort = {
-			attack = 0.1
+			attack = -0.8
 		}
 		deep_desert = {
-			attack = -0.15
-			defence = -0.175
-			movement = -0.15
+			attack = -0.1
+			defence = -0.15
+			movement = -0.1
 		}
 	}
+
 	
 	super_heavy_sp_artillery_brigade = {
 		sprite = heavy_armor
