@@ -763,12 +763,12 @@ SOV_filipp_golikov={
 		}
 	}
 	corps_commander={
-		traits={ brilliant_strategist career_officer trait_reckless armor_officer panzer_leader ranger }
+		traits={ brilliant_strategist career_officer trait_reckless panzer_leader ranger organizer logistics_wizard }
 		skill=4
-		attack_skill=4
+		attack_skill=6
 		defense_skill=4
 		planning_skill=3
-		logistics_skill=5
+		logistics_skill=3
 		legacy_id=4013
 	}
 }

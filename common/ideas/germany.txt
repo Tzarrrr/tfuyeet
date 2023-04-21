@@ -599,11 +599,8 @@ ideas = {
 				production_speed_infrastructure_factor=0.20
 				army_morale_factor = 0.1
 				army_org_factor = 0.05
-				army_speed_factor = 0.02
 				land_reinforce_rate = 0.05
-				no_supply_grace = 48
 				army_infantry_defence_factor = 0.12
-				terrain_penalty_reduction = 0.10
 				cas_damage_reduction = 0.1
 				dig_in_speed_factor = 0.30
 				production_speed_supply_node_factor = 0.25
@@ -672,12 +669,9 @@ ideas = {
 				production_speed_infrastructure_factor=0.20
 				army_morale_factor = 0.1
 				army_org_factor = 0.05
-				army_speed_factor = 0.02
 				land_reinforce_rate = 0.05
-				no_supply_grace = 48
 				army_infantry_defence_factor = 0.12
 				army_infantry_attack_factor = 0.06
-				terrain_penalty_reduction = 0.10
 				cas_damage_reduction = 0.1
 				dig_in_speed_factor = 0.30
 			}
@@ -710,10 +704,7 @@ ideas = {
 				production_speed_infrastructure_factor=0.20
 				army_morale_factor = 0.1
 				army_org_factor = 0.05
-				army_speed_factor = 0.02
 				land_reinforce_rate = 0.02
-				no_supply_grace = 48
-				terrain_penalty_reduction = 0.10
 				cas_damage_reduction = 0.1
 			}
 		}
@@ -1552,8 +1543,8 @@ ideas = {
 
 			equipment_bonus = {
 				armor = {
-					soft_attack = 0.125 
-					hard_attack = 0.125
+					soft_attack = 0.1
+					hard_attack = 0.1
 					reliability = 0.1
 				}
 				
@@ -1580,8 +1571,8 @@ ideas = {
 
 		 equipment_bonus = {
 				armor = {
-					 soft_attack = 0.175
-					 hard_attack = 0.05
+					 soft_attack = 0.15
+					 hard_attack = 0.075
 					 reliability = 0.1
 				}
 				

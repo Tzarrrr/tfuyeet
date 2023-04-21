@@ -496,12 +496,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trickster panzer_leader ranger expert_improviser fortress_buster organizer trait_engineer trait_reckless brilliant_strategist career_officer panzer_expert media_personality war_hero}
+			traits = { trickster panzer_leader ranger fast_planner fortress_buster organizer trait_engineer trait_reckless brilliant_strategist career_officer panzer_expert media_personality war_hero}
 			skill = 6
 			attack_skill = 6
 			defense_skill = 6
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}
