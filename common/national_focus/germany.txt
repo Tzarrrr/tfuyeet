@@ -1987,7 +1987,7 @@ focus_tree = {
 		id = GER_naval_rearmament
 		icon = GFX_goal_generic_build_navy
 		prerequisite = { focus = GER_rhineland }
-		mutually_exclusive = { focus = GER_accept_british_naval_dominance}
+		mutually_exclusive = { focus = GER_accept_british_naval_dominance focus = GER_challenge_british_naval_dominance}
 		relative_position_id = GER_rhineland
 		x = 15
 		y = 2
