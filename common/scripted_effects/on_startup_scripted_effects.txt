@@ -222,11 +222,8 @@ sr_no_asia = {
 		# Having Australia/NZL is probably too much industry for UK, who doesn't even have great depression modifiers
 		# annex_country = { target = AST transfer_troops = no }
 		# annex_country = { target = NZL transfer_troops = no }
-		annex_country = { target = RAJ transfer_troops = no }
 	}
-	every_state = { limit = { is_core_of = RAJ }
-		set_compliance = 100
-	}
+
 	every_state = {
 		limit = { is_core_of = AST }
 		add_core_of = ENG

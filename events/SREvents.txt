@@ -99,20 +99,32 @@ country_event = {
 					instant_build = yes
 				}
 					}
-				every_state = { limit = { is_core_of = RAJ }
-					remove_building = {
+			439 = {
+				remove_building = {
 						type = industrial_complex
-						level = 3
-					}
-					remove_building = {
-						type = arms_factory
-						level = 3
-					}
-					remove_building = {
-						type = dockyard
-						level = 3
+						level = 2
 					}
 				}
+			}
+			430 = {
+				remove_building = {
+						type = industrial_complex
+						level = 2
+					}
+			
+			
+			}
+			427 = {
+				remove_building = {
+						type = industrial_complex
+						level = 2
+					}
+			}
+			443 = {
+				remove_building = {
+						type = industrial_complex
+						level = 1
+					}
 			}
 		}
 	}
