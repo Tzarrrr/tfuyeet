@@ -1155,13 +1155,7 @@ foreign_politics = {
 				
 			available = {
 			AND = {
-				OR = {
-					date > 1939.1.1
-					has_game_rule = {
-						rule = mini_sr
-						option = ENABLE_MINI_SR
-					}
-				}
+					date > 1940.1.1
 				ENG = { is_ai = no }
 				RAJ = { is_ai = yes }
 			}
@@ -1190,7 +1184,7 @@ foreign_politics = {
 				}
 				every_state = { 
 					limit = { is_core_of = RAJ }
-					set_compliance = 100 
+					set_compliance = 0
 				}
 			}
 		}

@@ -823,8 +823,8 @@ equipment_modules = {
 			sfx = sfx_ui_sd_module_sonar
 			
 			add_stats = {
-				lg_attack = 0.025
-				hg_attack = 0.025
+				naval_light_gun_hit_chance_factor = 0.025
+				naval_heavy_gun_hit_chance_factor = 0.025
 				build_cost_ic = 80
 				surface_detection = 5
 			}
@@ -835,8 +835,8 @@ equipment_modules = {
 			
 			add_stats = {
 				build_cost_ic = 110
-				lg_attack = 0.05
-				hg_attack = 0.05
+				naval_light_gun_hit_chance_factor = 0.05
+				naval_heavy_gun_hit_chance_factor = 0.05
 				surface_detection = 7
 				sub_detection = 2
 			}
@@ -851,8 +851,8 @@ equipment_modules = {
 			sfx = sfx_ui_sd_module_sonar
 			
 			multiply_stats = {
-				lg_attack = 0.075
-				hg_attack = 0.075
+				naval_light_gun_hit_chance_factor = 0.075
+			naval_heavy_gun_hit_chance_factor = 0.075
 				anti_air_attack = 0.05
 			}
 			add_stats = {
@@ -875,8 +875,8 @@ equipment_modules = {
 			sfx = sfx_ui_sd_module_sonar
 	
 			multiply_stats = {
-				lg_attack = 0.1
-				hg_attack = 0.1
+				naval_light_gun_hit_chance_factor = 0.1
+				naval_heavy_gun_hit_chance_factor = 0.1
 				anti_air_attack = 0.1
 			}
 			add_stats = {
