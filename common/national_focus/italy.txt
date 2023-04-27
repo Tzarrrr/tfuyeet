@@ -1245,7 +1245,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = ITA_army_primacy
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1269,7 +1269,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ITA_army_primacy
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1279,16 +1279,10 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 50
 			add_tech_bonus = {
-				name = special_bonus
+				name = RAJ_vickers_berthier_gun
 				bonus = 1.0
-				uses = 1
-				#technology = tech_recon
-				#technology = tech_recon2
-				technology = tech_recon3
-				technology = tech_recon4
-				#technology = tech_engineers2
-				technology = tech_engineers3
-				technology = tech_engineers4
+				uses = 2
+				category = infantry_weapons
 			}
 			army_experience = 50
 			# add_tech_bonus = {
