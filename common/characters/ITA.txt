@@ -166,7 +166,7 @@ characters={
 				large="gfx/leaders/ITA/Portrait_Italy_Ubaldo_Soddu.dds"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={ career_officer politically_connected skilled_staffer trait_engineer panzer_leader commando }
 			skill=4
 			attack_skill=2

@@ -1589,11 +1589,11 @@ focus_tree = {
 			# 	reverse_add_opinion_modifier = { target = HUN modifier = GER_first_vienna_award_other }
 			# }
 
-			
-			add_timed_idea = {
-						idea = German_tank_bonus  days = 365
-				}
-
+			every_country = { limit = { the_axis = yes} }
+            add_timed_idea = {
+                idea = German_tank_bonus
+                days = 365
+            }
 			set_global_flag = end_of_czechoslovakia
 				
 			CZE = { country_event = germany.53 }

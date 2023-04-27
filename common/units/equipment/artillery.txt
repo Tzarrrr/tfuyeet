@@ -56,7 +56,7 @@ equipments = {
 		visual_level = 1
 
 		defense = 15
-		breakthrough = 14.5
+		breakthrough = 12.5
 		soft_attack = 31
 		
 		build_cost_ic = 2.85

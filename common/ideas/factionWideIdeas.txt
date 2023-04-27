@@ -133,7 +133,7 @@ ideas = {
 				# anti_air_brigade = { max_strength = 6 }
 				land_reinforce_rate = 0.10
 				supply_node_range = 0.075
-				army_strength_factor = 0.30
+				army_strength_factor = 0.40
 				supply_consumption_factor = -0.14
 			}
 			

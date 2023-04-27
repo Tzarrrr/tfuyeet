@@ -1964,6 +1964,9 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 35
+
+			add_ideas = BUL_Geological_Knowledge
+			
 			# add_tech_bonus = {
 			# 	name = HUN_home_defense
 			# 	bonus = 1.0

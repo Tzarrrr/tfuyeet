@@ -108,7 +108,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.025
 			ENG = {
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 30000 producer = USA }
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = USA }
 				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 700 producer = USA }
 				add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA }
 				country_event = { id = wtt_britain.30 }

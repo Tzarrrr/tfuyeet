@@ -1313,7 +1313,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = JAP_purge_the_kodoha_faction 
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -1395,7 +1395,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -1480,7 +1480,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -1525,7 +1525,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = JAP_supremacy_of_technology
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -2017,7 +2017,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -2027,7 +2027,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -2617,9 +2617,7 @@ focus_tree = {
 		}
 
 		available = {
-				SIA = { is_subject_of = ROOT 
-					controls_state = 670
-					is_ai = no }
+				JAP = {controls_state = 670}
 		}
 
 		available_if_capitulated = no
@@ -2631,18 +2629,18 @@ focus_tree = {
 		completion_reward = {
 		
 		670 = {
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 				}
 				741 = {
-						add_extra_state_shared_building_slots = 3
+						add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 5
 					instant_build = yes
 				}	
 						
