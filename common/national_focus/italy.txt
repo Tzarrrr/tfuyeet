@@ -2341,7 +2341,7 @@ focus_tree = {
 				# Balance research bonus to 2 techs in armor, also in event
 				add_tech_bonus = {
 					name = armor_bonus
-					bonus = 1.0
+					bonus = 1.35
 					uses = 2
 					category = armor
 				}
