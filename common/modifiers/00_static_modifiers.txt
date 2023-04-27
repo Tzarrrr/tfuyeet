@@ -143,24 +143,24 @@ weather_extreme_hot = { # on Province
 }
 
 soviet_hero_city = { # on Province
-	local_org_regain = 0.33
+	local_org_regain = 0.5
 	army_defence_factor = 0.1
 	pocket_penalty = -0.75
 	max_dig_in = 5
-	dig_in_speed_factor = 1
+	dig_in_speed_factor = 2
 	supply_consumption_factor = -0.1
-	cas_damage_reduction = 0.15
+	cas_damage_reduction = 0.25
 	
 }
 
 Atlantic_Wall_Garrison = { # on Province
-	local_org_regain = 0.25
+	cas_damage_reduction = 0.25
 	max_dig_in = 10
 	
 }
 
 Atlantic_Wall_Garrison_1 = { # on Province
-naval_invasion_penalty = 0.3
+naval_invasion_penalty = 0.5
 	
 }
 
