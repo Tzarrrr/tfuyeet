@@ -1588,12 +1588,15 @@ focus_tree = {
 			# 	}
 			# 	reverse_add_opinion_modifier = { target = HUN modifier = GER_first_vienna_award_other }
 			# }
-
-			every_country = { limit = { the_axis = yes} }
             add_timed_idea = {
                 idea = German_tank_bonus
                 days = 365
             }
+			if = { limit = {country_exists = SPR } SPR = { add_timed_idea = { idea = German_tank_bonus days = 365 } } }
+						if = { limit = {country_exists = ROM } ROM = { add_timed_idea = { idea = German_tank_bonus days = 365 } } }
+						if = { limit = {country_exists = HUN } HUN = { add_timed_idea = { idea = German_tank_bonus days = 365 } } }
+						if = { limit = {country_exists = BUL } BUL = { add_timed_idea = { idea = German_tank_bonus days = 365 } } }
+						if = { limit = {country_exists = CRO } CRO = { add_timed_idea = { idea = German_tank_bonus days = 365 } } }
 			set_global_flag = end_of_czechoslovakia
 				
 			CZE = { country_event = germany.53 }

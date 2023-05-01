@@ -126,6 +126,30 @@ country_event = {
 						level = 1
 					}
 			}
+			423 = {
+				remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+			}
+			425 = {
+				remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+			}
+			424 = {
+				remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+			}
+			436 = {
+				remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+			}
 		}
 	}
 	

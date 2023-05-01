@@ -1347,7 +1347,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_special_forces
-		cost = 15
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -1364,7 +1364,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1.0
+				bonus = 1.15
 				uses = 2
 				technology = basic_medium_tank_chassis
 				technology = improved_medium_tank_chassis
