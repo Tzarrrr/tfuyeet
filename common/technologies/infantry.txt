@@ -1604,10 +1604,6 @@ technologies = {
 			defense = 0.05
 		}
 		
-		militia = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
 		
 		# path = {
 		# 	leads_to_tech = sniper_rifle_2
@@ -1634,11 +1630,6 @@ technologies = {
 
 		category_recon = {
 			recon = 0.5
-		}
-		
-		militia = {
-			soft_attack = 0.05
-			defense = 0.05
 		}
 		
 		category_light_infantry = {
@@ -1673,9 +1664,6 @@ technologies = {
 			breakthrough = 0.10
 		}
 		
-		militia = {
-			breakthrough = 0.10
-		}
 		
 		engineer = {
 			entrenchment = 0.5
@@ -1703,9 +1691,7 @@ technologies = {
 			breakthrough = 0.10
 		}
 		
-		militia = {
-			breakthrough = 0.10
-		}
+
 		
 		engineer = {
 			entrenchment = 0.5

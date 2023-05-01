@@ -113,12 +113,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ defensive_doctrine organisational_leader }
-			skill=2
-			attack_skill=1
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=1
+			traits={ defensive_doctrine infantry_leader desert_fox ranger commando }
+			skill=5
+			attack_skill=7
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=1101
 		}
 	}
@@ -153,11 +153,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ old_guard career_officer harsh_leader infantry_officer politically_connected infantry_leader skilled_staffer urban_assault_specialist }
+			traits={ old_guard ranger harsh_leader politically_connected infantry_leader skilled_staffer urban_assault_specialist }
 			skill=4
-			attack_skill=4
+			attack_skill=7
 			defense_skill=4
-			planning_skill=1
+			planning_skill=5
 			logistics_skill=4
 			legacy_id=1103
 		}
@@ -261,6 +261,22 @@ characters={
 			army={
 				large="GFX_portrait_SPA_juan_yague"
 			}
+		}
+		
+			advisor={
+			slot = high_command
+			idea_token = emilio_mola
+			ledger  = army 
+				allowed  = {
+					original_tag  = SPR 
+				}
+				traits  = {
+					army_logistics_2 
+				}
+				cost = 150.000
+				ai_will_do  = {
+					factor  = 1.000
+				}
 		}
 		corps_commander={
 			traits={ brilliant_strategist trait_reckless trait_SPA_nationalist_sympathies }
