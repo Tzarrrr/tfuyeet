@@ -1440,9 +1440,7 @@ technologies = {
 		# }
 		category_army = {
 			max_organisation = 5
-		}
-		category_support_battalions = {
-			max_organisation = -10
+			default_morale = 0.05
 		}
 			
 		#combat advantage when air superior
@@ -2303,8 +2301,10 @@ technologies = {
 			breakthrough = 0.05
 			soft_attack = 0.05
 			breakthrough = 0.10
+			max_strength = 6.0
+			default_morale = 0.1
 		}
-		special_forces_no_supply_grace = 24
+		special_forces_no_supply_grace = 48
 		
 		path = {
 			leads_to_tech = attritional_containment 

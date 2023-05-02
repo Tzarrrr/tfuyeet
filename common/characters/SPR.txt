@@ -298,6 +298,21 @@ characters={
 				large="GFX_portrait_SPA_augustin_muynoz_grandes"
 			}
 		}
+		advisor={
+			slot = high_command
+			idea_token = emilio_mola
+			ledger  = army 
+				allowed  = {
+					original_tag  = SPR 
+				}
+				traits  = {
+					army_infantry_2 
+				}
+				cost = 150.000
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
 		corps_commander={
 			traits={ trait_cautious armor_officer trait_SPA_nationalist_sympathies trickster panzer_leader hill_fighter }
 			skill=4
@@ -317,6 +332,21 @@ characters={
 			army={
 				large="GFX_portrait_SPA_jose_enrique_varela"
 			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = emilio_mola
+			ledger  = army 
+				allowed  = {
+					original_tag  = SPR 
+				}
+				traits  = {
+					army_commando_3 
+				}
+				cost = 150.000
+				ai_will_do  = {
+					factor  = 1.000
+				}
 		}
 		corps_commander={
 			traits={ trait_SPA_nationalist_sympathies organizer infantry_leader hill_fighter }
