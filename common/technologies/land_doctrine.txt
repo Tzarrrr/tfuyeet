@@ -2,9 +2,7 @@ technologies = {
 
 	mobile_warfare = {
 		
-		allow = { 
-			NOT = { tag = SOV }
-		}
+
 		
 		doctrine_name = "MOBILE_WARFARE_DOCTRINE"
 		xp_research_type = army
@@ -891,10 +889,6 @@ technologies = {
 	
 	superior_firepower = {
 	
-	allow = { 
-			NOT = { tag = SOV }
-			
-		}
 		
 		
 		doctrine_name = "SUPERIOR_FIREPOWER_DOCTRINE"
@@ -1658,10 +1652,6 @@ technologies = {
 	
 	trench_warfare = {
 	
-		allow = { 
-			NOT = { tag = SOV }
-			
-		}
 	
 		doctrine_name = "GRAND_BATTLEPLAN_DOCTRINE"
 
@@ -2581,6 +2571,7 @@ technologies = {
 
 		allow = { 
 		 tag = SOV
+		 tag = MON
 			
 		}
 
