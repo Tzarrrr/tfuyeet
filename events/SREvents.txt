@@ -85,6 +85,7 @@ country_event = {
 
 			hidden_effect = {
 			ENG = { add_ideas = USA_ships_for_victory_idea }
+			RAJ = { add_ideas = RAJ_famine }
 			696 = { add_core_of = ENG }
 			696 = {
 				add_extra_state_shared_building_slots = 25
