@@ -28,6 +28,16 @@ ideas = {
 			}
 		}
 		
+		Soviet_Planning = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				planning_speed = 999
+			}
+		}
 		
 		African_counter_attack = {
 			picture = HUN_treaty_of_triannon

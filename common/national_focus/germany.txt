@@ -3371,6 +3371,7 @@ focus_tree = {
 				}
 		
 				completion_reward = {
+					hidden_effect = { SOV = { add_timed_idea = { idea = Soviet_Planning days = 21 }  }}	
 					create_wargoal = { type = annex_everything target = SOV }
 					
 								activate_mission = GER_barbarossa_mission_moscow
