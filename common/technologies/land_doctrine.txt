@@ -2571,8 +2571,6 @@ technologies = {
 
 		allow = { 
 		 tag = SOV
-		 tag = MON
-			
 		}
 
 
@@ -2922,19 +2920,19 @@ technologies = {
 			max_organisation = 5
 			default_morale = 0.05
 			breakthrough = 0.10
-			max_strength = 5.0
+			max_strength = 6.0
 		}
 		motorized = {
 			max_organisation = 5
 			default_morale = 0.05
 			breakthrough = 0.10
-			max_strength = 5.0
+			max_strength = 6.0
 		}	
 		amphibious_mechanized = {
 			max_organisation = 10
 			default_morale = 0.05
 			breakthrough = 0.10
-			max_strength = 5.0
+			max_strength = 6.0
 		}	
 		motorized_rocket_brigade = {
 			max_organisation = 5
