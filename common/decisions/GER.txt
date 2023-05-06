@@ -783,7 +783,7 @@ GER_case_anton = {
 
 			add_equipment_to_stockpile = { type = heavy_tank_equipment_2 amount = 200 producer = USA }
 			add_equipment_to_stockpile = { type = light_tank_equipment_2 amount = 200 producer = USA }
-			add_equipment_to_stockpile = { type = medium_tank_equipment_2 amount = 1000 producer = USA }
+			add_equipment_to_stockpile = { type = medium_tank_equipment_2 amount = 3000 producer = USA }
 
 			add_timed_idea = { idea = GER_triumph_dday_idea days = 365 }
 			USA = {

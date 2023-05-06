@@ -3405,7 +3405,7 @@ focus_tree = {
 		prerequisite = { focus = GER_ussr_war_goal }
 		x = 15
 		y = 9
-		cost = 5
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -3468,7 +3468,7 @@ focus_tree = {
 		
 				available_if_capitulated = no
 				available = {
-					date > 1942.2.1
+					date > 1941.12.1
 					#has_ideas = speer
 				}
 				completion_reward = {
@@ -3522,7 +3522,7 @@ focus_tree = {
 				prerequisite = { focus = GER_ussr_war_goal }
 				x = -5
 				y = 1
-				cost = 8.7
+				cost = 6
 				ai_will_do = {
 					factor = 1
 				}
