@@ -1096,16 +1096,16 @@ technologies = {
 		# EFFECT ##############		
 		light_cruiser = {
 			max_organisation = 8
-			surface_visibility = -0.10
+			surface_visibility = -0.05
 			convoy_raiding_coordination = 0.15
-			surface_detection = 0.10
+			surface_detection = 0.05
 		}
 
 		heavy_cruiser = {
 			max_organisation = 8
-			surface_visibility = -0.10
+			surface_visibility = -0.05
 			convoy_raiding_coordination = 0.15
-			surface_detection = 0.10
+			surface_detection = 0.05
 		}
 		#######
 
