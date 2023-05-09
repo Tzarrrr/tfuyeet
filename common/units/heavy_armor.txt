@@ -63,7 +63,11 @@ sub_units = {
 		}
 		urban = {
 			attack = -0.2
-			defence = -0.7
+			defence = -0.55
+		}
+		urban = {
+			attack = -0.15
+			defence = -0.2
 		}
 		river = { 
 			attack = -0.4 

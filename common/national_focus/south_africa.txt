@@ -676,6 +676,22 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SAF_expand_the_mining_industry_IC
+			}
 			275 = {
 				add_resource = {
 					type = steel
@@ -717,10 +733,10 @@ focus_tree = {
 				limit = {
 					has_state_flag = SAF_pretoria_arms_AF
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -735,10 +751,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = SAF_pretoria_arms_AF
@@ -1216,7 +1232,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = SAF_armor_effort
-				bonus = 1.0
+				bonus = 1.15
 				uses = 2
 				technology = improved_medium_tank_chassis
 				technology = improved_heavy_tank_chassis

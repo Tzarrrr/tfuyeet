@@ -61,6 +61,13 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = tot_economic_mobilisation
+			
+			every_country = {
+				limit = {
+					is_subject_of = ROOT
+				}
+				add_ideas = tot_economic_mobilisation
+			}
 		}
 	}
 

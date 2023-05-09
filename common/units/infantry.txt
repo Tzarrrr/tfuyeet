@@ -537,6 +537,11 @@ sub_units = {
 			defence = 0.10
 		}
 		village = {
+			attack = 0.25
+			movement = 0.1
+			defence = 0.10
+		}
+		village = {
 			attack = 0.20
 			movement = 0.1
 			defence = 0.10

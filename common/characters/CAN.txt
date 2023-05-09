@@ -123,10 +123,10 @@ characters={
 		field_marshal={
 			traits={ old_guard brilliant_strategist politically_connected organizer panzer_leader skilled_staffer desert_fox panzer_expert fast_planner offensive_doctrine }
 			skill=5
-			attack_skill=4
+			attack_skill=6
 			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -236,10 +236,10 @@ characters={
 		corps_commander={
 			traits={ old_guard brilliant_strategist career_officer trait_cautious cavalry_officer urban_assault_specialist fortress_buster trickster panzer_leader desert_fox }
 			skill=5
-			attack_skill=8
-			defense_skill=1
-			planning_skill=4
-			logistics_skill=2
+			attack_skill=7
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}

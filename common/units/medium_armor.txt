@@ -64,6 +64,10 @@ sub_units = {
 			attack = -0.30
 			defence = -0.55
 		}
+		village = {
+			attack = -0.15
+			defence = -0.2
+		}
 		river = { 
 			attack = -0.15
 			movement = -0.15	

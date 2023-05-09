@@ -142,9 +142,9 @@ ideas = {
 				# anti_tank_brigade = { max_strength = 3 }
 				# anti_air_brigade = { max_strength = 6 }
 				land_reinforce_rate = 0.10
-				supply_node_range = 0.075
-				army_strength_factor = 0.40
-				supply_consumption_factor = -0.14
+				supply_node_range = 0.05
+				army_strength_factor = 0.35
+				supply_consumption_factor = -0.5
 			}
 			
 			equipment_bonus = {
@@ -173,13 +173,16 @@ ideas = {
 				# artillery_brigade = { max_strength = 9 }
 				# anti_tank_brigade = { max_strength = 3 }
 				# anti_air_brigade = { max_strength = 6 }
-				land_reinforce_rate = 0.03
+				land_reinforce_rate = 0.06
 				army_strength_factor = 0.2
+				army_org_factor = 0.05
+				dig_in_speed = 0.2
 			}
 			
 			equipment_bonus = {
 				fighter_equipment = {
 				air_range = 0.1
+				air_attack = 0.05
 				}
 			}
 		}
