@@ -346,7 +346,7 @@ mot_rocket_artillery_brigade = {
 	
 	forest = {
 		attack = -0.2
-		movement = -0.5
+		movement = -0.25
 	}
 
 	hills = {

@@ -1905,7 +1905,7 @@ focus_tree = {
 	focus = {
 		id = GER_accept_british_naval_dominance
 		icon = GFX_focus_ger_accept_british_naval_dominance
-		mutually_exclusive = { focus = GER_naval_rearmament }
+		mutually_exclusive = { focus = GER_naval_rearmament focus = GER_challenge_british_naval_dominance}
 		prerequisite = { focus = GER_rhineland }
 		relative_position_id = GER_rhineland
 		available = {
@@ -2300,7 +2300,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = GER_naval_effort
-		cost = 5
+		cost = 1
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -2311,7 +2311,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_carrier_primacy
-				bonus = 1.0
+				bonus = 3.0
 				uses = 2
 				category = cv_tech
 			}

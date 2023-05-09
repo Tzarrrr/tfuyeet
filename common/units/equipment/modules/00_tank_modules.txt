@@ -1716,7 +1716,7 @@
 
 			add_stats = {
 				soft_attack = 26
-				hard_attack = 33
+				hard_attack = 34
 				ap_attack = 90
 				build_cost_ic = 5.5
 				maximum_speed = -0.3
