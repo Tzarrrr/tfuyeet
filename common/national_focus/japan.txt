@@ -61,7 +61,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_purge_the_kodoha_faction
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 2
@@ -128,7 +128,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 7
 
 		available = {
 			date > 1937.5.1
@@ -217,9 +217,12 @@ focus_tree = {
 				ENG = { army_experience = 150 }
                 FRA = { army_experience = 150 }	
 				CAN = { army_experience = 150 }
+				NOR = { army_experience = 150 }
 				SAF = {	army_experience = 150 }
+				MON = {	army_experience = 150 }
 				RAJ = {	army_experience = 150 }
 				AST = {	army_experience = 150 }
+				MAN = {	army_experience = 350 }
 				NZL = { army_experience = 150 }	
 				ROM = { army_experience = 100 }		
 				HUN = { army_experience = 100 }	
@@ -239,7 +242,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_intervene_in_china
 
-		cost = 10
+		cost = 7
 
 		ai_will_do = {
 			factor = 3

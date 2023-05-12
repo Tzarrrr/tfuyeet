@@ -370,7 +370,7 @@ characters={
 		}
 		
 		advisor={
-			slot = army_chief
+			slot = political_advisor
 			idea_token = walther_funk
 			allowed = {
 				original_tag = MAN
