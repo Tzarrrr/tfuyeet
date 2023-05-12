@@ -373,7 +373,7 @@ adjacency_rule =
 		trade = yes
 	}
 	
-	required_provinces = { 5074 }
+	required_provinces = { 5074 4985 8124}
 	
 	icon = 5074	
 	offset = { 0.0 0.0 0.0 }

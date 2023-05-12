@@ -440,7 +440,7 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Otozo_Yamada.dds"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={ career_officer cavalry_officer trickster panzer_leader hill_fighter }
 			skill=4
 			attack_skill=6
@@ -888,7 +888,7 @@ characters={
 					}
 				}
 				traits  = {
-					army_armored_1 
+					army_armored_2 
 				}
 				cost = 150.000
 				ai_will_do  = {

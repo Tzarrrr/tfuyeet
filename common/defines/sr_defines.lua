@@ -508,9 +508,9 @@ NDefines.NNavy.GUN_HIT_PROFILES = {
 	265.0 -- light attack 45
 	}
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
-		3.0,	-- heavy attack
+		2.5,	-- heavy attack
 		7.5,	-- torpedos
-		1.5	--  light attack	
+		2	--  light attack	
 	}
 
 	NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0                     -- this is done due to constantly retreating with carrier fleets essentially making all other ships useless, delete-revert if you see it is unnecesary, 

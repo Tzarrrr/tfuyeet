@@ -70,6 +70,69 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = USA_war_plan_silver
+		icon = GFX_focus_attack_italy
+		x = -3
+		y = 1
+		prerequisite = { focus = uk_mediterranean_focus }
+		relative_position_id = uk_mediterranean_focus
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+			OR = {
+				date>1942.3.1
+				ENG = { surrender_progress > 0.10 }
+			}
+			
+		}
+			
+		bypass = {
+	
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = "Gives the War Plan Silver modifier to all the allies                  "
+			unlock_decision_tooltip = { decision = USA_execute_war_plan_silver show_effect_tooltip = yes show_modifiers = yes }
+		}
+	}
+	focus = {
+		id = USA_war_plan_black
+		icon = GFX_focus_attack_germany
+		prerequisite = { focus = uk_mediterranean_focus }
+		available = {
+			OR = {
+				date>1942.9.1
+				ENG = { surrender_progress > 0.10 }
+			}
+		}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+
+		x = 3
+		y = 1
+		relative_position_id = uk_mediterranean_focus
+		cost = 1
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		completion_reward = {
+			custom_effect_tooltip = "Gives the War Plan Black modifier to all the allies                  "
+			unlock_decision_tooltip = { decision = USA_execute_war_plan_black show_effect_tooltip = yes show_modifiers = yes }
+		}
+	}
+
+
+
 
 	# focus = {
 	# 	id = ENG_sudanese_rubber

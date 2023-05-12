@@ -56,15 +56,17 @@ sub_units = {
 		}
 		desert = {
 			movement = 0.15
+			attack = 0.05
 		}
 		deep_desert = {
 			movement = 0.05
+			attack = 0.05
 		}
 		urban = {
-			attack = -0.5
+			attack = -0.4
 		}
 		river = { 
-			attack = -0.4 
+			attack = -0.3 
 			movement = -0.2
 		}
 		amphibious = { 

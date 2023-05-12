@@ -1488,6 +1488,23 @@ focus = {
 }
 
 focus = {
+	id = JAP_Wargoal
+	icon = GFX_focus_attack_japan
+	prerequisite = { focus = SOV_defense_of_stalingrad }
+	relative_position_id = SOV_defense_of_stalingrad
+	x = 4
+	y = 2
+	cost = 10
+	ai_will_do = {
+		factor = 1
+	}
+
+	completion_reward = {
+	create_wargoal = { type = annex_everything target = JAP }
+	}
+}
+
+focus = {
 	id = SOV_defense_of_stalingrad
 	icon = GFX_focus_ger_great_red_menace
 	#prerequisite = { focus = SOV_defense_of_moscow }
@@ -2069,7 +2086,7 @@ focus = {
 				modify_building_resources = {
 					building = synthetic_refinery
 					resource = rubber
-					amount = 1
+					amount = 2
 				}
 
 				if = {

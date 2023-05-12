@@ -2672,7 +2672,7 @@ technologies = {
 		}
 		anti_tank_brigade = { 
 			max_strength = 1.0
-			# max_organisation = -10.5
+			hard_attack = 0.1
 		}
 
 		xp_research_type = army
@@ -2792,6 +2792,7 @@ technologies = {
 		category_light_infantry = {
 			max_organisation = 8
 			breakthrough = 0.2
+			defense = 0.05
 		}
 
 		mechanized = {

@@ -134,9 +134,9 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ old_guard trait_cautious infantry_officer politically_connected organizer skilled_staffer }
+			traits={ politically_connected organizer panzer_leader urban_assault_specialist trickster }
 			skill=5
-			attack_skill=2
+			attack_skill=5 
 			defense_skill=5
 			planning_skill=3
 			logistics_skill=6

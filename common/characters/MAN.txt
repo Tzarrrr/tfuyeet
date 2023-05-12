@@ -81,6 +81,18 @@ characters={
 				large="gfx/leaders/MAN/portrait_man_zhang_haipeng.dds"
 			}
 		}
+		
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = manstein
+			ledger = army
+			
+			traits = {
+				mobile_warfare_expert
+			}
+		}
+		
 		field_marshal={
 			traits={ organizer infantry_leader trickster trait_engineer panzer_leader trait_mountaineer hill_fighter logistics_wizard panzer_expert scavenger infantry_expert expert_improviser }
 			skill=5
@@ -183,6 +195,20 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Kenkichi_Ueda.dds"
 			}
 		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = walther_funk
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				war_industrialist 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		field_marshal={
 			traits={ bearer_of_artillery old_guard trait_reckless infantry_leader commando logistics_wizard defensive_doctrine organisational_leader infantry_expert }
 			skill=6
@@ -203,6 +229,21 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Harukichi_Hyakutake.dds"
 			}
 		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = walther_funk
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				silent_workhorse 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
 		field_marshal={
 			traits={ inflexible_strategist organizer infantry_leader winter_specialist logistics_wizard unyielding_defender organisational_leader inspirational_leader }
 			skill=5
@@ -223,6 +264,21 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Tomoyuki_Yamashita.dds"
 			}
 		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = walther_funk
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				captain_of_industry 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
 		field_marshal={
 			traits={ brilliant_strategist JAP_samurai_lineage organizer infantry_leader trickster trait_engineer commando naval_invader trait_mountaineer jungle_rat aggressive_assaulter organisational_leader fortress_buster infantry_expert }
 			skill=5
@@ -243,6 +299,20 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Hisaichi_Terauchi.dds"
 			}
 		}
+		
+		advisor={
+			slot = high_command
+			idea_token = walther_funk
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_armored_3 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}  
 		field_marshal={
 			traits={ JAP_samurai_lineage organizer infantry_leader trait_engineer trait_mountaineer hill_fighter jungle_rat urban_assault_specialist logistics_wizard inspirational_leader infantry_expert expert_improviser }
 			skill=5
@@ -263,6 +333,21 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Seishiro_Itagaki.dds"
 			}
 		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = walther_funk
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				smooth_talking_charmer 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
 		field_marshal={
 			traits={ inflexible_strategist JAP_samurai_lineage infantry_leader logistics_wizard defensive_doctrine unyielding_defender infantry_expert guerilla_fighter }
 			skill=5
@@ -281,6 +366,20 @@ characters={
 			}
 			army={
 				large="gfx/leaders/JAP/Portrait_Japan_Shunroku_Hata.dds"
+			}
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = walther_funk
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_offensive_2 
+			}
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 		corps_commander={
