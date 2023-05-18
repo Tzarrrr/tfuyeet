@@ -254,7 +254,7 @@ sub_units = {
 		manpower = 500
 		max_organisation = 20
 		default_morale = 0.1
-		max_strength = 6
+		max_strength = 4
 		training_time = 120
 		weight = 0.5
 
@@ -274,9 +274,18 @@ sub_units = {
 		}
 
 		mountain = {
-			attack = -0.10
+			attack = -0.3
 			defence = -0.10
 			movement = -0.2
+		}
+		
+		urban = {
+			attack = -0.3
+			defence = -0.15
+		}
+		village = {
+			attack = -0.15
+			defence = -0.1
 		}
 
 		jungle = {
@@ -338,7 +347,7 @@ mot_rocket_artillery_brigade = {
 	manpower = 500
 	max_organisation = 20
 	default_morale = 0.1
-	max_strength = 6
+	max_strength = 4
 	training_time = 120
 	weight = 0.5
 
@@ -354,7 +363,8 @@ mot_rocket_artillery_brigade = {
 	}
 
 	mountain = {
-		movement = -0.2
+		movement = -0.3
+		attack = -0.3
 	}
 
 	jungle = {
